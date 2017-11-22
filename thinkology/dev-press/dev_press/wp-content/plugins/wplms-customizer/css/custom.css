@@ -1,0 +1,19 @@
+/*kurskii*/
+
+/*!!!all courses page customization*/
+
+/*//delete: footer/header/title - custom css*/
+#headertop, .header_content, footer {
+    display: none;
+}
+
+/*//delete button create course - custom css*/
+
+.directory.course.buddypress a.button.create-group-button.full {
+    display: none;
+}
+
+/*hide title*/
+.directory.course.buddypress #title {
+    display: none;
+}

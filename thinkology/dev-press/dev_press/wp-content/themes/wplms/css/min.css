@@ -11062,7 +11062,7 @@ svg#icon-alarm {
   margin-bottom: .7em
 }
 
-@media screen and (max-width:768px) {
+/*@media screen and (max-width:768px) {
   svg#header-person {
     max-width: 100%!important
   }
@@ -11087,7 +11087,9 @@ svg#icon-alarm {
     max-width: 786px;
     margin-bottom: -23px
   }
-}
+}*/
+
+
 
 .skills {
   width: 100%;
@@ -11443,7 +11445,7 @@ svg#icon-alarm {
 }
 
 .meet-jeffrey-section {
-  background: #333 url(../images/home/meet-jeffrey-bg.jpg) 50% 0 no-repeat;
+  background: #333 url(../images/home/meet-jeffrey-bg.jpg) 10% 0 no-repeat;
   background-size: cover
 }
 

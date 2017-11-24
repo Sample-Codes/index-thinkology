@@ -820,8 +820,9 @@
                 transform: scale(1)
             }
         }
-        #thinkology_logo{
-        max-height: 80px;
+
+        #thinkology_logo {
+            max-height: 80px;
         }
     </style>
     <meta charset="utf-8">
@@ -919,7 +920,8 @@
                             <path d="M596.19,488.14H553.44a4.08,4.08,0,1,1,0-8.16h42.75a4.08,4.08,0,0,1,0,8.16Z"
                                   transform="translate(-86.99 -435.26)" class="svg-logo-black-path"></path>
                         </svg>-->
-                    <img id="thinkology_logo" src="wp-content/themes/wplms/images/icons/illustrator_no_grad_row.png">
+                        <img id="thinkology_logo"
+                             src="wp-content/themes/wplms/images/icons/illustrator_no_grad_row.png">
                     </a></div>
                 <div class="nav-center flex mr-2">
 
@@ -981,7 +983,7 @@
                                     </li>
                                     <li class="dropdown-item"><a href="/skills/testing" class=" is-flex"><span
                                                     class="flex">Тестирование</span> <span class="is-circle icon"
-                                                                                      style="color: rgb(144, 206, 148);"></span></a>
+                                                                                           style="color: rgb(144, 206, 148);"></span></a>
                                     </li>
                                     <li class="dropdown-item"><a href="/skills/javascript" class=" is-flex"><span
                                                     class="flex">Front-End</span> <span class="is-circle icon"
@@ -989,7 +991,7 @@
                                     </li>
                                     <li class="dropdown-item"><a href="/skills/tooling" class=" is-flex"><span
                                                     class="flex">Инструменты</span> <span class="is-circle icon"
-                                                                                      style="color: rgb(239, 103, 51);"></span></a>
+                                                                                          style="color: rgb(239, 103, 51);"></span></a>
                                     </li>
                                 </ul>
                             </div>
@@ -1012,7 +1014,8 @@
                         </h1>
                         <p data-wow-delay=".4s" class="subheading pb-1 wow fadeIn"
                            style="visibility: visible; animation-delay: 0.4s; animation-name: fadeIn;">
-                            Узнайте практичную, современную веб разработку через экспертные скринкасты. Большинство обучающих видео скучны. Эти - нет. Готовы пойти дальше?
+                            Узнайте практичную, современную веб разработку через экспертные скринкасты. Большинство
+                            обучающих видео скучны. Эти - нет. Готовы пойти дальше?
                         </p>
                         <div data-wow-delay=".6s" class="wow zoomIn"
                              style="visibility: visible; animation-delay: 0.6s; animation-name: zoomIn;"><a href="/join"
@@ -1022,17 +1025,17 @@
                                 Все</a></div>
                     </div>
                 </div>
-                <svg id="header-person" version="1.1" xmlns="http://www.w3.org/2000/svg"
+                <!--<svg id="header-person" version="1.1" xmlns="http://www.w3.org/2000/svg"
                      xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 708.66 425.197"
                      enable-background="new 0 0 708.66 425.197" xml:space="preserve"><g>
                         <path fill="#EDF7F7" d="M572.143,405.655c-8.816-112.585-102.962-201.198-217.814-201.198
-		c-114.848,0-208.995,88.613-217.814,201.198H572.143z"></path>
+		                c-114.848,0-208.995,88.613-217.814,201.198H572.143z"></path>
                         <g>
                             <g>
                                 <path fill="#51AFB2" d="M420.405,287.075c-2.917-6.086-7.046-7.237-7.046-7.237l-40.819-9.417l-18.184,3.595l-0.053,0.082v-0.082
-				l-18.184-3.595l-40.821,9.417c0,0-4.127,1.151-7.043,7.237c-2.051,4.28-13.447,30.195-21.571,52.961
-				c4.397,0.428,14.347,1.624,28.186,4.585v61.034h59.433h0.053h59.432v-61.034c13.84-2.961,23.79-4.157,28.188-4.585
-				C433.851,317.271,422.455,291.355,420.405,287.075z"></path>
+				    l-18.184-3.595l-40.821,9.417c0,0-4.127,1.151-7.043,7.237c-2.051,4.28-13.447,30.195-21.571,52.961
+				    c4.397,0.428,14.347,1.624,28.186,4.585v61.034h59.433h0.053h59.432v-61.034c13.84-2.961,23.79-4.157,28.188-4.585
+				    C433.851,317.271,422.455,291.355,420.405,287.075z"></path>
                                 <g>
                                     <path fill="#EFDBB5" d="M259.091,365.305c-4.104,20.642,5.46,29.243,15.448,40.351h20.331v-61.034
 					c-13.838-2.961-23.789-4.157-28.186-4.585C263.255,349.641,260.409,358.685,259.091,365.305z"></path>
@@ -1041,7 +1044,7 @@
                                 </g>
                             </g>
                             <path fill="#EFDBB5" d="M335.454,243.047v25.949c0,10.424,8.45,18.876,18.875,18.876c10.428,0,18.878-8.452,18.878-18.876v-25.949
-			H335.454z"></path>
+			        H335.454z"></path>
                             <g>
                                 <path fill="#E7C6A2" d="M354.328,244.47c-7.614,0-14.409,1.722-18.875,4.419v15.147c4.465,2.694,11.261,4.418,18.875,4.418
 				c7.615,0,14.412-1.724,18.878-4.418v-15.147C368.74,246.191,361.943,244.47,354.328,244.47z"></path>
@@ -2024,7 +2027,8 @@
                         <circle fill="#E7C6A2" cx="387.488" cy="212.033" r="0.931"></circle>
                         <circle fill="#E7C6A2" cx="391.317" cy="216.807" r="0.929"></circle>
                         <circle fill="#E7C6A2" cx="383.187" cy="217.557" r="0.931"></circle>
-                    </g></svg>
+                    </g></svg>-->
+                <img id="header-person" src="wp-content/themes/wplms/images/home/main_guy.png" style="max-width: 50%;">
             </div>
         </section>
         <section class="skills is-greydient bb-0">
@@ -2110,19 +2114,19 @@
                 <div class="columns">
                     <div class="column is-6">
                         <h2 class="heading wow slideInUp pr-1-tablet" style="visibility: hidden; animation-name: none;">
-                            The most concise screencasts for the working developer, updated daily.
+                            Самые лаконичные скринкасты для работающего разработчика, обновляются еженедельно.
                         </h2></div>
                     <div class="column is-6 wow slideInDown subheading content px-1"
                          style="visibility: hidden; animation-name: none;">
                         <p>
-                            The secret sauce for Laracasts is a simple one. <strong>No slides. No scripts. Just <a
-                                        href="http://sublimetext.com" target="_blank">Sublime</a>.</strong> As a visual
-                            learner, I'd often find myself watching video tutorials and falling
-                            asleep. There's only so many diagrams and bullet lists that one person can get through!
+                            Тайный соус для Thinkology прост. <strong>Никаких слайдов. Нет скриптов. Только <a
+                                        href="http://sublimetext.com" target="_blank">Sublime</a>.</strong>
+                            Как визуальный ученик, я часто смотрел видео-уроки и засыпал. Там было столько схем и
+                            маркированных списков, что ни один человек не сможет пройти!
                         </p>
                         <p>
-                            When launching Laracasts in 2013, I made a point to, at all times, keep the focus on, not
-                            academic theory, but real-life code and workflow.
+                            При запуске Thinkology в 2014 году я всегда обращал внимание на то, чтобы сосредоточиться не на
+                            академической теории, а на реальном коде и рабочем процессе.
                         </p>
                     </div>
                 </div>
@@ -2138,27 +2142,28 @@
                         <div class="subheading content wow fadeIn has-text-centered"
                              style="visibility: hidden; animation-name: none;">
                             <p>
-                                Plenty of educational resources will teach you how to make a website. But what about
-                                those of us who already do that full-time, every single day? Where do we go to further
-                                our education? If ever there was a field that required nonstop learning, programming
-                                is certainly it.
+                                Много образовательных ресурсов научат вас, как сделать сайт. Но как насчет тех из нас,
+                                кто уже это делает все время, каждый день? Где наше дальнейшее образование? Если когда
+                                и была область, которая требовала непрерывного обучения, программирование, безусловно,
+                                та область.
                             </p>
-                            <p><strong>Laracasts</strong> is the defacto educational resource specifically for working
-                                developers building the web with PHP and JavaScript. Это как <strong>Netflix для вашей
+                            <p><strong>Thinkology</strong> это по факту образовательный ресурс предназначенный для
+                                работающиx разработчиков, строящиx веб с PHP и JavaScript. Это как <strong>Netflix для вашей
                                     карьеры</strong>!
                             </p>
                             <p data-wow-delay=".5s" class="has-text-centered mt-2 wow fade zoomIn"
                                style="visibility: hidden; animation-delay: 0.5s; animation-name: none;"><a href="/join"
                                                                                                            class="button is-default is-primary">
-                                    Инвестировать в Себя
+                                    Перейти к делу
                                 </a></p>
                         </div>
                     </div>
                 </div>
             </div>
             <div class="has-text-centered invest-in-yourself-join-button is-hidden-mobile"><a href="/all-courses"
-                                                                                              class="button is-naked">Have
-                    a Look Around</a></div>
+                                                                                              class="button is-naked">
+                    Осмотреться вокруг
+                </a></div>
         </section>
         <section class="testimonials is-medium is-grey">
             <div class="container">
@@ -2167,11 +2172,11 @@
                         <div>
                             <div class="wow bounceInRight ml-1" style="visibility: hidden; animation-name: none;">
                                 <h3 class="heading mb-1">
-                                    Thousands of developers up their game with Laracasts every day.
+                                    Тысячи разработчиков ведут свою игру с Thinkology каждый день.
                                 </h3>
                                 <p class="subheading has-no-padding">
-                                    “Who is this Laracasts guy, and why should I trust him?” It's a fair enough
-                                    question! Would hundreds upon hundreds of glowing endorsements help?
+                                    “Что это еще за Thinkology и почему я должен доверять им?” Справедливый вопрос!
+                                    Помогут ли сотни и сотни светящиxся одобрений?
                                 </p> <a href="/testimonials" class="button is-primary is-padded">Бесчисленные Отзывы</a>
                             </div>
                             <div class="avatars"><a href="http://laravel.com" id="testimonial-1" target="_blank"
@@ -2256,7 +2261,7 @@
                 </div>
             </div>
         </section>
-        <section class="plans-section">
+        <!--<section class="plans-section">
             <div class="container">
                 <header class="column is-8 is-offset-2 has-text-centered mb-5"><img
                             src="wp-content/themes/wplms/svg-loaders/hearts.svg" class="mb-2">
@@ -2330,12 +2335,12 @@
                     </div>
                 </div>
             </div>
-        </section>
+        </section>-->
         <section class="meet-jeffrey-section is-medium">
             <div class="container">
                 <div class="columns">
                     <div class="column is-8 content is-medium color-white pt-4-tablet">
-                        <p>
+                        <!--<p>
                             There's a chance you may already know me! A veteran in the PHP community, I am a co-host on
                             the official <a href="http://laravelpodcast.com" target="_blank" rel="noreferrer noopener">Laravel
                                 podcast</a>, have written successful books,
@@ -2349,15 +2354,20 @@
                             <a href="https://www.youtube.com/watch?v=ozMoUp1wU0E">No Capes</a>, and
                             <a href="http://www.fullstackradio.com/28">Full Stack Radio</a>), and have contributed to
                             the largest web dev magazines in the world.
+                        </p>-->
+                        <p>
+                            Мы действительно хороши в преподавании всего этого. Вы ни за что не найдете скучных, вызывающих сон
+                            слайдов и диаграмм на этом сайте.
                         </p>
                         <p>
-                            And if I may be so bold, I'm really good at teaching this stuff. You won't find boring,
-                            sleep-inducing slides and diagrams anywhere on this site. No, here, we're entirely focused
-                            on the code - just like we're <a href="/join">sitting next to each other</a>.
+                            Нет.
                         </p>
                         <p>
-                            Buy me the equivalent of lunch once a month, and I'll teach you everything I know about this
-                            business.
+                            Тут мы целиком и полностью сфокусированы на коде. Вы почувствуете себя точно так, как будто
+                            мы <!--<a href="/join">-->сидим с вами рядом друг с другом<!--</a>-->.
+                        </p>
+                        <p>
+                            Присоединяйтесь к нашей толпе и мы научим вас всему что мы знаем в этой области.
                         </p>
                     </div>
                 </div>
@@ -2369,18 +2379,18 @@
                     <div data-wow-delay=".5s" class="column is-5 wow fadeIn"
                          style="visibility: hidden; animation-delay: 0.5s; animation-name: none;">
                         <h2 class="newsletter-heading pr-1-tablet has-text-centered-mobile">
-                            Want us to email you occasionally with Laracasts news?
+                            Хотите получать обновления по почте?
                         </h2></div>
                     <div class="column is-6 is-offset-1">
                         <form id="newsletter-form" method="POST" action="/newsletters/subscribe">
                             <div class="newsletter-signup control has-addons wow lightSpeedIn"
                                  style="visibility: hidden; animation-name: none;"><input type="email" name="email"
-                                                                                          placeholder="Enter Your Email"
+                                                                                          placeholder="Введите ваш Email"
                                                                                           autocomplete="off"
                                                                                           required="required"
                                                                                           class="input">
                                 <button type="submit" class="button is-outlined is-primary">
-                                    Subscribe
+                                    Отправить
                                 </button>
                             </div>
                         </form>
@@ -2393,10 +2403,10 @@
                 <div class="columns mb-3">
                     <div class="column is-5">
                         <h2 class="mb-3"><img src="wp-content/themes/wplms/images/logo-footer.png" alt="Laracasts"
-                                              width="350" height="44.92"></h2>
+                                              width="350" height="90"></h2>
                         <p class="footer-description is-heavy mb-3">
-                            Lots of your peers think Laracasts is one of the best things ever. So buy Jeffrey lunch once
-                            a month, see for yourself, and massively level up your skills in the process.
+                            Множество ваших приятелей думают что Thinkology самая лучшая вещь на свете. Так что
+                            начинайте смотреть и поднимите уровень ваших способностей в процессе.
                         </p>
                         <ul class="is-inline-flex w-100 is-justified-to-center-mobile">
                             <li><a href="http://facebook.com/laracasts" target="_blank"><span
@@ -2421,12 +2431,12 @@
                         </ul>
                     </div>
                     <div class="column is-2 is-offset-1 is-hidden-mobile">
-                        <h5 class="heading is-5 in-caps">Learn</h5>
+                        <h5 class="heading is-5 in-caps">Учиться</h5>
                         <ul class="footer-links-list">
-                            <li><a href="/lessons">Library</a></li>
-                            <li><a href="/index">Lesson Index</a></li>
-                            <li><a href="/shop">Shop</a></li>
-                            <li><a href="/recommended-reading">Books</a></li>
+                            <li><a href="/lessons">Каталог</a></li>
+                            <!--<li><a href="/index">Lesson Index</a></li>
+                            <li><a href="/shop">Shop</a></li>-->
+                            <!--<li><a href="/recommended-reading">Books</a></li>-->
                             <!--<li><a href="/join">Новый</a></li>
                             <li><a href="/login">
                                     Войти
@@ -2434,36 +2444,36 @@
                         </ul>
                     </div>
                     <div class="column is-2 is-hidden-mobile">
-                        <h5 class="heading is-5 in-caps">Discuss</h5>
+                        <h5 class="heading is-5 in-caps">Общение</h5>
                         <ul class="footer-links-list">
-                            <li><a href="/discuss">Forum</a></li>
+                            <!--<li><a href="/discuss">Forum</a></li>
                             <li><a href="/podcast">Laracasts Snippet</a></li>
-                            <li><a href="http://laravelpodcast.com">Laravel Podcast</a></li>
-                            <li><a href="/contact">Support</a></li>
+                            <li><a href="http://laravelpodcast.com">Laravel Podcast</a></li>-->
+                            <li><a href="/testimonials">Отзывы</a></li>
+                            <li><a href="/contact">Поддержка</a></li>
                         </ul>
                     </div>
                     <div class="column is-2 is-hidden-mobile">
-                        <h5 class="heading is-5 in-caps">Extras</h5>
+                        <h5 class="heading is-5 in-caps">Экстра</h5>
                         <ul class="footer-links-list">
-                            <li><a href="https://laracasts.com/stats">Statistics</a></li>
-                            <li><a href="/testimonials">Testimonials</a></li>
-                            <li><a href="/faq">FAQ</a></li>
-                            <li><a href="/community?orderBy=updated_at">Community Tutorials</a></li>
-                            <li><a href="/feed">RSS</a></li>
-                            <li><a href="https://larajobs.com/?partner=36#">Get a Job</a></li>
+                            <li><a href="https://laracasts.com/stats">Статистика</a></li>
+                            <!--<li><a href="/faq">FAQ</a></li>-->
+                            <!--<li><a href="/community?orderBy=updated_at">Community Tutorials</a></li>
+                            <li><a href="/feed">RSS</a></li>-->
+                            <li><a href="https://larajobs.com/?partner=36#">Получить работу</a></li>
                         </ul>
                         <ul class="zeroed footer-links-list">
-                            <li><a href="/privacy">Privacy</a></li>
-                            <li><a href="/terms">Terms</a></li>
+                            <li><a href="/privacy">Личные данные</a></li>
+                            <li><a href="/terms">Условия</a></li>
                         </ul>
                     </div>
                 </div>
                 <div class="columns hosting">
                     <div class="column is-5 is-bold has-text-centered-mobile">
-                        © Laracasts 2017. All rights reserved. Yes, all of them. That means you, Todd.
+                        © Thinkology 2018. Все права защищены.
                     </div>
                     <div class="column is-5 is-offset-2 has-text-right is-bold is-hidden-mobile">
-                        Proudly hosted with <a href="https://forge.laravel.com">Laravel Forge</a> and <a
+                        С гордостью размещены на <a href="https://forge.laravel.com">Laravel Forge</a> и <a
                                 href="https://www.digitalocean.com/?refcode=d2070a2d5f35">DigitalOcean</a>.
                     </div>
                 </div>

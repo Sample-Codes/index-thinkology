@@ -939,7 +939,7 @@
         <nav class="nav-bottom  is-hidden-tablet ">
             <div class="container">
                 <ul class="is-flex-tablet nav-menu">
-                    <li class="is-hidden-tablet">
+                    <!--<li class="is-hidden-tablet">
                         <form method="GET" action="/search" class="nav-search-form is-flex">
                             <svg viewBox="0 0 20 20" version="1.1" xmlns="http://www.w3.org/2000/svg"
                                  xmlns:xlink="http://www.w3.org/1999/xlink" class="is-hidden-mobile"
@@ -956,7 +956,7 @@
                                 Search
                             </button>
                         </form>
-                    </li>
+                    </li>-->
                     <!--<li class="is-hidden-tablet"><a href="/login" class="nav-bottom-link"><span
                                     class="nav-bottom-title">Войти</span></a></li>
                     <li class="is-hidden-tablet"><a href="/join" class="nav-bottom-link"><span class="nav-bottom-title">Новый</span></a>

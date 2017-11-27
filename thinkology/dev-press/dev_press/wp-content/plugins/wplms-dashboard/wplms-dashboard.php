@@ -3,7 +3,7 @@
 Plugin Name: WPLMS Dashboard
 Plugin URI: http://www.Vibethemes.com
 Description: Student/Instructor Dashboard for WPLMS theme
-Version: 3.1
+Version: 3.2
 Author: VibeThemes
 Author URI: http://www.vibethemes.com
 License: as Per Themeforest GuideLines
@@ -14,7 +14,6 @@ Copyright 2014  VibeThemes  (email : vibethemes@gmail.com)
 WPLMS Dashboard is a plugin made for WPLMS Theme. This plugin is only meant to work with WPLMS and can only be used with WPLMS. WPLMS Dashboard program is not a free software; you can not redistribute it and/or modify 
 Please consult VibeThemes.com or email us at vibethemes@gmail.com for more.
 */
-
 
 if ( !defined( 'ABSPATH' ) ) exit;
 

@@ -1,3 +1,7 @@
+* 3.2
+* changes
+* Select 2 enter more characters string added in new front end .js file
+* hook for custom question type
 * 3.1
 * Duplicate setting for making first section free removed.
 * Add switch for partial free course in course price section

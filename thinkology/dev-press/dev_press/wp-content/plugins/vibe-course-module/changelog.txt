@@ -1,4 +1,42 @@
+* 3.2.1
+* Course applications
+* translations updated
+* 3.2
+* unit shows pending in course evaluation for user in submission fix
+* course_id added in permalink for student activity
+* Course news email sent individually to the students
+* extra partial free course filter added in credits
 * 3.1.2
+* check answer bug fix in safari
+* if all taxonomies are unchecked then filter sets taxnomy args fix
+* level and location filter not working fix
+* get price error in case of pmpro fix
+* fix for match type question where option is images
+* h5p support via iframes
+* 3.1.2
+* course module fixes
+* unit complete activity recorded many times issue fix
+* complete unit activity not recording
+* stats widget wrong counter fix
+* select 2 js error fix in course search widget
+* multiple pricing in api
+* Apply for course text not changing bug fixed.
+* quiz stats in in-course quizzes also
+* remove ' from %s
+* course application gets overwritten by later one fix
+* filters in results section correction
+* missing braces
+* added filter in auto submit or submission
+* default question type hanlde with hook in user results
+* 3.1.1
+* question fields hook for in course quiz
+* get user
+*  passing student showing wrong is certificate marks is set 100
+* fb login app
+* Extra check for current user id removed
+* vimeo shortcode replace from content
+* Free course check added in partial free courses
+* Partial free course integrated with pmpro and mycred also
 * Wplms start quiz filter added on in-course quiz.
 * Course price shown in case of partial free course in course status page
 * assignment results fixes

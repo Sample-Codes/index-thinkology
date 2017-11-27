@@ -3,7 +3,7 @@
 Plugin Name: Vibe Custom Types
 Plugin URI: http://www.vibethemes.com/
 Description: This plugin creates Custom Post Types and Custom Meta boxes for WPLMS theme.
-Version: 3.1
+Version: 3.2.1
 Author: Mr.Vibe
 Author URI: http://www.vibethemes.com/
 Text Domain: vibe-customtypes
@@ -33,9 +33,12 @@ include_once('includes/caching.php');
 include_once('includes/tips.php');
 include_once('metaboxes/meta_box.php');
 include_once('metaboxes/library/vibe-editor.php');
+
 include_once('custom_meta_boxes.php');
 include_once('includes/api/class-api-wp.php');
 /*====== INSTALLATION HOOKs ======*/        
+
+include_once('metaboxes/library/vc-mapper/vc-mapper.php');
 
 register_activation_hook(__FILE__,'register_lms');
 register_activation_hook(__FILE__,'register_popups', 11);

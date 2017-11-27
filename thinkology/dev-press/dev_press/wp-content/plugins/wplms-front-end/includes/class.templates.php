@@ -137,6 +137,9 @@ class WPLMS_Content_Templates {
 						'vibe_question_explaination'=>__('Some explaination to this question.','wplms-front-end')
 					);
 			break;
+			default:
+	            $this->settings = apply_filters('wplms_front_end_question_template',$this->settings,$type);
+	        break;
 		}
 	}
 }

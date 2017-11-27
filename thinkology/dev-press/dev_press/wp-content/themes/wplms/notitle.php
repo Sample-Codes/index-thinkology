@@ -828,20 +828,20 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="initial-scale=1.1">
-    <meta name="description" content="The best PHP and Laravel screencasts on the web.">
-    <meta property="og:site_name" content="Laracasts">
+    <meta name="description" content="Лучшие PHP и Laravel скринкасты в интернете.">
+    <meta property="og:site_name" content="Thinkology">
     <meta property="fb:app_id" content="511211375738022">
     <title>Лушие Laravel и PHP Скринкасты</title>
     <link rel="apple-touch-icon" sizes="180x180"
-          href="https://laracasts.com/favicons/apple-touch-icon.png?v=XBrbNbbRQ4">
-    <link rel="icon" type="image/png" href="https://laracasts.com/favicons/favicon-32x32.png?v=XBrbNbbRQ4"
+          href="dev_press/wp-content/uploads/2017/11/fav_Asset-1-180x180.png">
+    <!--<link rel="icon" type="image/png" href="dev_press/wp-content/uploads/2017/11/fav_Asset-1-180x180.png"
           sizes="32x32">
-    <link rel="icon" type="image/png" href="https://laracasts.com/favicons/favicon-16x16.png?v=XBrbNbbRQ4"
+    <link rel="icon" type="image/png" href="dev_press/wp-content/uploads/2017/11/fav_Asset-1-180x180.png"
           sizes="16x16">
     <link rel="manifest" href="https://laracasts.com/favicons/manifest.json?v=XBrbNbbRQ4">
     <link rel="mask-icon" href="https://laracasts.com/favicons/safari-pinned-tab.svg?v=XBrbNbbRQ4" color="#4fb6b5">
     <link rel="shortcut icon" href="https://laracasts.com/favicons/favicon.ico?v=XBrbNbbRQ4">
-    <meta name="msapplication-config" content="https://laracasts.com/favicons/browserconfig.xml?v=XBrbNbbRQ4">
+    <meta name="msapplication-config" content="https://laracasts.com/favicons/browserconfig.xml?v=XBrbNbbRQ4">-->
     <meta name="theme-color" content="#4fb6b5">
     <link rel="alternate" type="application/atom+xml" title="Laracasts" href="/feed">
     <link href="https://fonts.googleapis.com/css?family=Montserrat:500,700|Source+Sans+Pro" rel="stylesheet">
@@ -2402,7 +2402,7 @@
             <footer class="container">
                 <div class="columns mb-3">
                     <div class="column is-5">
-                        <h2 class="mb-3"><img src="wp-content/themes/wplms/images/logo-footer.png" alt="Laracasts"
+                        <h2 class="mb-3"><img src="wp-content/themes/wplms/images/logo-footer.png" alt="Thinkology"
                                               width="350" height="90"></h2>
                         <p class="footer-description is-heavy mb-3">
                             Множество ваших приятелей думают что Thinkology самая лучшая вещь на свете. Так что

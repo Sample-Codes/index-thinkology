@@ -84,6 +84,9 @@ Class Vibe_Define_Shortcodes{
         add_shortcode('survey_result',array($this,'survey_result'));
         add_shortcode('countdown_timer',array($this,'countdown_timer'));
         add_shortcode('vibe_current_date',array($this,'vibe_current_date'));
+        add_shortcode('vibe_user_field',array($this,'vibe_user_field'));
+        add_shortcode('vibe_quiz_retake',array($this,'quiz_retake_shortcode'));
+        add_shortcode('wplms_login',array($this,'vibe_wplms_login'));
         /*
         SPECIAL HOOKS IN INTEGRATION WITH SHORTCODES
         */
@@ -118,6 +121,44 @@ Class Vibe_Define_Shortcodes{
     }
 
 /*-----------------------------------------------------------------------------------*/
+/*  Child theme Shortcodes
+/*-----------------------------------------------------------------------------------*/
+
+    function vibe_wplms_login($atts, $content = null ) {
+        $return = '';
+        if(is_user_logged_in()){
+          $return .= __('Welcome','vibe-shortcodes').' '.bp_get_loggedin_user_fullname();  
+        }else{
+          $return .= '<a href="#wplms-login-form" class="open-popup-link">'.__('Already registered ? Click here to login','vibe-shortcodes').'</a>';
+
+          $return .= "<script>
+                        jQuery(document).ready(function($){
+                            
+                            $('.open-popup-link').on('click',function(event){
+                                event.preventDefault();
+                                if($('header').hasClass('app')){
+
+                                    if(jQuery('.global').hasClass('login_open')){
+                                      jQuery('.global').removeClass('login_open');
+                                    }else{
+                                     jQuery('.global').addClass('login_open');
+                                      jQuery('body').trigger('global_opened');
+                                    }
+                                     event.stopPropagation();
+                                }else{
+                                    $('.vbplogin').trigger('click');
+                                    $('#login_modern_trigger').trigger('click');
+                                }
+                                
+                            });
+                        });
+                    </script>";
+        } 
+      
+        return $return;
+    }
+
+/*-----------------------------------------------------------------------------------*/
 /*  SELL CONTENT WOOCOMMERCE SHORTCODE
 /*-----------------------------------------------------------------------------------*/
 
@@ -142,11 +183,33 @@ Class Vibe_Define_Shortcodes{
 
                     $price_html = str_replace('class="amount"','class="amount" itemprop="price"',$product->get_price_html());
 
-                echo '<div class="message info">'.
-                sprintf(__('You do not have access to this content. <a href="%s" class="button"> Puchase </a> content for %s','vibe-shortcodes'),$link,$price_html).
-                '</div>';   
+                    echo '<div class="message info">'.
+                    sprintf(__('You do not have access to this content. <a href="%s" class="button"> Puchase </a> content for %s','vibe-shortcodes'),$link,$price_html).
+                        '</div>';
+
+                    //Check if its a unit then remove the access of the unit attachments.
+                    $this->$sell_content_unit_id = get_the_ID();
+                    if( bp_course_get_post_type($unit_id) == 'unit' ){
+                        add_filter('wplms_unit_attachments',function($flag,$id){
+                            if( $this->$sell_content_unit_id == $id ){
+                                $flag = 0;
+                            }
+                            return $flag;
+                        },10,2);
+                    }
                 }else{
                     echo '<div class="message info">'.__('You do not have access to this content','vibe-shortcodes').'</div>';
+
+                    //Check if its a unit then remove the access of the unit attachments.
+                    $this->$sell_content_unit_id = get_the_ID();
+                    if( bp_course_get_post_type($unit_id) == 'unit' ){
+                        add_filter('wplms_unit_attachments',function($flag,$id){
+                            if( $this->$sell_content_unit_id == $id ){
+                                $flag = 0;
+                            }
+                            return $flag;
+                        },10,2);
+                    }
                 }
             }
         }else{
@@ -160,11 +223,33 @@ Class Vibe_Define_Shortcodes{
 
                     $price_html = $product->get_price_html();
 
-                echo '<div class="message info">'.
-                sprintf(__('You do not have access to this content. <a href="%s" class="button"> Puchase </a> content for %s','vibe-shortcodes'),$link,$price_html).
-                '</div>';   
+                    echo '<div class="message info">'.
+                    sprintf(__('You do not have access to this content. <a href="%s" class="button"> Puchase </a> content for %s','vibe-shortcodes'),$link,$price_html).
+                    '</div>';
+
+                    //Check if its a unit then remove the access of the unit attachments.
+                    $this->$sell_content_unit_id = get_the_ID();
+                    if( bp_course_get_post_type($unit_id) == 'unit' ){
+                        add_filter('wplms_unit_attachments',function($flag,$id){
+                            if( $this->$sell_content_unit_id == $id ){
+                                $flag = 0;
+                            }
+                            return $flag;
+                        },10,2);
+                    }
                 }else{
                     echo '<div class="message info">'.__('You do not have access to this content','vibe-shortcodes').'</div>';
+
+                    //Check if its a unit then remove the access of the unit attachments.
+                    $this->$sell_content_unit_id = get_the_ID();
+                    if( bp_course_get_post_type($unit_id) == 'unit' ){
+                        add_filter('wplms_unit_attachments',function($flag,$id){
+                            if( $this->$sell_content_unit_id == $id ){
+                                $flag = 0;
+                            }
+                            return $flag;
+                        },10,2);
+                    }
                 }
         }
 
@@ -606,6 +691,39 @@ Class Vibe_Define_Shortcodes{
 
         $return = date($format);
         return $return;
+    }
+
+/*-----------------------------------------------------------------------------------*/
+/*  Vibe User Field
+/*-----------------------------------------------------------------------------------*/
+
+    function vibe_user_field($atts, $content = null){
+        extract(shortcode_atts(array(
+            'user_id' => get_current_user_id(),
+            'field' => 'name',
+            ), $atts));
+
+            $return ='';
+            if(function_exists('bp_get_profile_field_data')){
+                $return =  bp_get_profile_field_data('field='.$field.'&user_id='.$user_id);    
+            }
+            
+            return $return;
+    }
+
+/*-----------------------------------------------------------------------------------*/
+/*  Vibe Quiz retake
+/*-----------------------------------------------------------------------------------*/
+
+    function quiz_retake_shortcode($atts){
+      if(!is_user_logged_in())
+        return;
+      $user_id = get_current_user_id();
+      ob_start();
+      bp_course_quiz_retake_form($atts['quiz'],$user_id,$atts['course']);
+      echo '<style>.prev_quiz_results{display:block !important;}</style>';
+      $return = ob_get_clean();
+      return $return;
     }
 
 /*-----------------------------------------------------------------------------------*/
@@ -2617,18 +2735,19 @@ Class Vibe_Define_Shortcodes{
 
                         $return .= '<li><div class="g-recaptcha" data-theme="clean" data-sitekey="'.$google_captcha_public_key.'"></div></li>';
                     }
-                    $return .= '<input type="hidden" name="'.$key.'" value="'.$settings[$key].'"/>';
+                    if( $key !== 'mailchimp_list' )
+                        $return .= '<input type="hidden" name="'.$key.'" value="'.$settings[$key].'"/>';
                 }
             }
-
-            do_action('wplms_before_registration_form',$name);
-
-            $return .='<li>'.apply_filters('wplms_registration_form_submit_button','<a href="#" class="submit_registration_form button">'.__('Register','vibe-shortcodes').'</a>').'</li>';
+            
             //SETTINGS
             
             ob_start();
+            do_action('wplms_before_registration_form',$name);
             wp_nonce_field( 'bp_new_signup' );
             $return .= ob_get_clean();
+
+            $return .='<li>'.apply_filters('wplms_registration_form_submit_button','<a href="#" class="submit_registration_form button">'.__('Register','vibe-shortcodes').'</a>').'</li>';
             $return .= '</ul></form></div>';
         }
         return $return;

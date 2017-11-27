@@ -69,7 +69,7 @@ class custom_add_meta_box {
 		if(in_array($hook,array('lms_page_lms-settings','post-new.php','post.php','lms_page_lms-stats'))){
 			wp_enqueue_script( 'meta_box_js', VIBE_PLUGIN_URL . '/vibe-customtypes/metaboxes/js/scripts.js', array( 'jquery','iris','jquery-ui-core','jquery-ui-sortable','jquery-ui-slider','jquery-ui-datepicker'),'2.6' );
 			wp_enqueue_media();
-			wp_enqueue_style( 'meta_box_css', VIBE_PLUGIN_URL . '/vibe-customtypes/metaboxes/css/meta_box.css');
+			wp_enqueue_style( 'meta_box_css', VIBE_PLUGIN_URL . '/vibe-customtypes/metaboxes/css/meta_box.css',array(),'3.2');
 		}
 		if($hook == 'term.php'){
 			wp_enqueue_media();

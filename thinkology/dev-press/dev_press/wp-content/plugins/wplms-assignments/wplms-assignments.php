@@ -3,7 +3,7 @@
 Plugin Name: WPLMS Assignments
 Plugin URI: http://www.Vibethemes.com
 Description: COURSE Assignments plugin for WPLMS 
-Version: 3.1
+Version: 3.2
 Author: VibeThemes
 Author URI: http://www.vibethemes.com
 License: as Per Themeforest GuideLines

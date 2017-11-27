@@ -413,10 +413,10 @@ function thumbnail_generator($custom_post,$featured_style,$cols='medium',$n=100,
             case 'testimonial': 
                     $return .='<div class="block testimonials">';
                 
-                    $author=  getPostMeta($custom_post->ID,'vibe_testimonial_author_name'); 
+                    $author = getPostMeta($custom_post->ID,'vibe_testimonial_author_name'); 
                     $designation=getPostMeta($custom_post->ID,'vibe_testimonial_author_designation');
                     if(has_post_thumbnail($custom_post->ID)  && $custom_post->post_type == 'testimonials'){
-                        $image=get_the_post_thumbnail($custom_post->ID,'full'); 
+                        $image = apply_filters('vibe_thumb_featured_image',featured_component($custom_post->ID,$cols),$featured_style);
                     }else{
                         $mail = get_userdata($custom_post->post_author);
                         $image= get_avatar( $mail->user_email, 96 );    
@@ -443,7 +443,7 @@ function thumbnail_generator($custom_post,$featured_style,$cols='medium',$n=100,
                     $author=  getPostMeta($custom_post->ID,'vibe_testimonial_author_name'); 
                     $designation=getPostMeta($custom_post->ID,'vibe_testimonial_author_designation');
                     if(has_post_thumbnail($custom_post->ID) && $custom_post->post_type == 'testimonials'){
-                        $image=get_the_post_thumbnail($custom_post->ID,'full'); 
+                        $image = apply_filters('vibe_thumb_featured_image',featured_component($custom_post->ID,$cols),$featured_style);
                     }else{
                         $mail = get_userdata($custom_post->post_author);
                         $image= get_avatar( $mail->user_email, 96 );    

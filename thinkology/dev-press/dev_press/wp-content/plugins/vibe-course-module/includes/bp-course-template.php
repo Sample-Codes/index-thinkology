@@ -139,8 +139,11 @@ Class BP_Course_Template{
 		}
 
 		$free_course = get_post_meta($id,'vibe_course_free',true);
+		$apply_course = get_post_meta($id,'vibe_course_apply',true);
 		if(vibe_validate($free_course)){
 			$credits[] = '<strong>'.apply_filters('wplms_free_course_price',__('FREE','vibe')).'</strong>';
+		}else if(vibe_validate($apply_course)){
+			$credits[] = '<strong>'.apply_filters('wplms_course_application_label',__('Apply to enrol','vibe')).'</strong>';
 		}else{
 			$product_id = get_post_meta($id,'vibe_product',true);
 			if(isset($product_id) && $product_id !='' && function_exists('wc_get_product')){ //WooCommerce installed

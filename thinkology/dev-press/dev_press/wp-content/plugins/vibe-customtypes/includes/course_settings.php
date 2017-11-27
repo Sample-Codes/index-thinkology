@@ -19,8 +19,8 @@
     	*/
     	add_filter('wplms_lms_commission_tabs',array($this,'add_course_details'));
     	// Tab Handle function
-    	add_filter('lms_general_settings',array($this,'handle_course_details'),99999);
-    	add_filter('wplms_course_details_widget',array($this,'apply_course_details'),9999);
+    	add_filter('lms_general_settings',array($this,'handle_course_details'),99);
+    	add_filter('wplms_course_details_widget',array($this,'apply_course_details'),99);
     }
 
     function apply_course_details($settings){
@@ -494,7 +494,7 @@
 			}
 
 			if(function_exists('tofriendlytime')){
-				$duration = apply_filters('wplms_cs_get_course_unit_durations',tofriendlytime($duration));
+				$duration = apply_filters('wplms_cs_get_course_unit_durations',tofriendlytime($duration),$duration);
 			}
 			
 			return '<li><strong class="tip" data-title="'._x("Total Unit + Quiz duration in this course","Course Detail Sidebar Unit Duration","vibe-customtypes").'">'.$duration.'</strong><i class="icon-clock-2"></i></li>';

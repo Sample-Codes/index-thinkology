@@ -1,3 +1,14 @@
+* 3.2
+* wplms_login shortcode opens login popup of header
+* Wplms_login shortcode added
+* Unit id passed from sell_content shortcode for removing attachments
+* Unit id checked in sell_content shortcode to restrict unit attachments.
+* Unit attachments hidden in sell_content shortcode in case of units
+* quiz retake shortcode
+* vibe user field shortcode
+* Mailchimp check added in custom registration form
+* groups not assigning fix
+* changelog
 * 3.1
 * Action added when user is registered from custom registration form
 * hover color in button shortcode

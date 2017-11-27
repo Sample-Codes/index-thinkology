@@ -384,7 +384,7 @@ class Vibe_Shortcodes_Ajax_Calls{
                                     $member_type=$setting->value;
                                 }
                                 if($setting->id=='wplms_user_bp_group'){
-                                    if(in_array($reg_form_settings['settings']['wplms_user_bp_group'],$setting->value) || $reg_form_settings['settings']['wplms_user_bp_group'] === array('enable_user_select_group')){
+                                    if(in_array($setting->value,$reg_form_settings['settings']['wplms_user_bp_group']) || $reg_form_settings['settings']['wplms_user_bp_group'] === array('enable_user_select_group')){
                                         $save_settings[$setting->id]=$setting->value;
                                         $wplms_user_bp_group = $setting->value;
                                     }else{

@@ -135,7 +135,7 @@ class wplms_export{
 		}
 		echo '<input type="submit" name="export" class="button-primary button" value="'.__('Generate Export File','vibe-customtypes').'" />';
 		if(isset($_POST['export'])){
-			echo '&nbsp;<a href="?page=lms-settings&tab=import-export&download='.$url.'" class="button-primary button">'.__('Download Export File','vibe-customtypes').'</a>';
+			echo '&nbsp;<a href="'.$url.'" target="_blank" class="button-primary button">'.__('Download Export File','vibe-customtypes').'</a>';
 		}
 			
 		wp_nonce_field('wplms_export'.get_current_user_id(),'security');
@@ -312,7 +312,7 @@ class wplms_export{
 		}
 
 		fclose($handle);
-		$filepath = $dir['basedir']. '/export/'.$file_name;
+		$filepath = $dir['baseurl']. '/export/'.$file_name;
 		return $filepath;
 	}
 

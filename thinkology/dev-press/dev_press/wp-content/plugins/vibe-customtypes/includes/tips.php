@@ -1872,6 +1872,9 @@ class WPLMS_tips{
 	function course_creator_curriculum_accordion(){
 
 		$cc_id = vibe_get_option('create_course');
+		if( function_exists('icl_object_id') ){
+			$cc_id = icl_object_id( $cc_id, 'page', true );
+		}
 		if(!is_page($cc_id) || !current_user_can('edit_posts'))
 			return;
 
@@ -2206,8 +2209,20 @@ class WPLMS_tips{
 				
 				$('.course_button').on('click',function(event){
 					event.preventDefault();
-					$('.vbplogin').trigger('click');
-					$('#login_modern_trigger').trigger('click');
+					if($('header').hasClass('app')){
+
+						if(jQuery('.global').hasClass('login_open')){
+				          jQuery('.global').removeClass('login_open');
+				        }else{
+				         jQuery('.global').addClass('login_open');
+				          jQuery('body').trigger('global_opened');
+				        }
+   						 event.stopPropagation();
+					}else{
+						$('.vbplogin').trigger('click');
+						$('#login_modern_trigger').trigger('click');
+					}
+					
 				});
 			});
 		</script>
@@ -2217,9 +2232,22 @@ class WPLMS_tips{
 	}
 
 	function calculate_course_duration_from_start_course($course_id,$user_id){
-		$total_duration = bp_course_get_course_duration($course_id,$user_id);
-		$timestamp = time()+$total_duration;
-		update_user_meta($user_id,$course_id,$timestamp);
+		global $bp,$wpdb;
+		$time = $expiry = $seconds = 0;
+		$time = $wpdb->get_var($wpdb->prepare( "
+										SELECT activity.date_recorded FROM {$bp->activity->table_name} AS activity
+										WHERE 	activity.component 	= 'course'
+										AND 	activity.type 	= 'subscribe_course'
+										AND 	user_id = %d
+										AND 	item_id = %d
+										ORDER BY date_recorded DESC
+									" ,$user_id,$course_id));
+		if($time && time() > $time){
+			$seconds = time() - (strtotime($time));
+			$expiry = get_user_meta($user_id,$course_id,true);
+			$new_time = $expiry + $seconds;
+			update_user_meta($user_id,$course_id,$new_time);
+		}
 	}
 
 } // End of Class

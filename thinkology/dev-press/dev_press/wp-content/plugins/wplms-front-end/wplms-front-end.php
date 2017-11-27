@@ -3,7 +3,7 @@
 Plugin Name: WPLMS Front End
 Plugin URI: http://www.Vibethemes.com
 Description: FRONT END Content Creation plugin for WPLMS 
-Version: 3.1
+Version: 3.2
 Author: VibeThemes
 Author URI: http://www.vibethemes.com
 License: as Per Themeforest GuideLines
@@ -67,8 +67,8 @@ function wplms_front_end_enqueue_scripts(){
 
 function wplms_front_end_loadscripts(){
         wp_enqueue_media();
-        wp_enqueue_style( 'wplms-front-end-css', plugins_url( 'assets/css/wplms_front_end.min.css' , __FILE__ ),array(),'2.9');
-        wp_enqueue_script( 'wplms-front-end-js', plugins_url( 'assets/js/wplms_front_end.min.js' , __FILE__ ), array( 'bp-course-js','jquery-ui-core','jquery-ui-sortable','jquery-ui-slider','jquery-ui-datepicker','bp-confirm' ) ,'2.9');
+        wp_enqueue_style( 'wplms-front-end-css', plugins_url( 'assets/css/wplms_front_end.min.css' , __FILE__ ),array(),'3.2');
+        wp_enqueue_script( 'wplms-front-end-js', plugins_url( 'assets/js/wplms_front_end.min.js' , __FILE__ ), array( 'bp-course-js','jquery-ui-core','jquery-ui-sortable','jquery-ui-slider','jquery-ui-datepicker','bp-confirm' ) ,'3.2');
         
         $translation_array = array(
             'course_title' => __( 'Please change the course title','wplms-front-end' ), 

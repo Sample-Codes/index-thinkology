@@ -1,3 +1,24 @@
+* 3.2.1
+* multisite VC check bug fixed
+* changelog
+* 3.2
+* Duration passed in course unit and quiz duration filter
+* builder icon
+* adding icon
+* builder in Visual composer
+* member and course category carousel
+* carousel to VC
+* carousel
+* course details tips not working fixed
+* carousel
+* initialize
+* Adding support for subscrioptions in Enable Course Duration from Start Course in lms settings
+* vibe_thumb_featured_image filter added in testimonials also
+* WPML check added for create course page in accordion style
+* open login popup on take this course button click not working in app style fix
+* download export file not working
+* course news touch points not working fixed.
+* exported file not downloading bug fixed
 * changelog
 * 3.1
 * remove all trackers when version upgraded

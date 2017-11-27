@@ -1308,7 +1308,7 @@ class lms_settings{
 
 		if(empty($settings))
 			return;
-		
+	
 		echo '<form method="post">';
 		wp_nonce_field('vibe_lms_settings','_wpnonce');
 		echo '<table class="form-table">
@@ -1811,7 +1811,7 @@ class lms_settings{
 										'instructor' => admin_url('edit.php?taxonomy=bp-email-type&term=instructor_course_news&post_type=bp-email'),
 									),
 									'type' => 'touchpoint',
-									'hook' => 'publish_post',
+									'hook' => 'publish_news',
 									'params'=>2,
 								),
 				'course_subscribed'=>array(

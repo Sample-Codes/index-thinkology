@@ -572,10 +572,12 @@ h3.course_status span .switch {
     opacity: 0.3;
     height: 75px;
     overflow: hidden;
+    -webkit-transition: all 0.2s ease-in-out;
     transition: all 0.2s ease-in-out; }
     .course-create-help liactive {
       opacity: 1;
       height: auto;
+      -webkit-transition: all 0.2s ease-in-out;
       transition: all 0.2s ease-in-out; }
     .course-create-help li span {
       font-size: 48px;
@@ -602,12 +604,14 @@ h3.course_status span .switch {
   height: 75px;
   overflow: hidden;
   webkit-transition: all 0.2s ease-in-out;
+  -webkit-transition: all 0.2s ease-in-out;
   transition: all 0.2s ease-in-out; }
 
 .course-create-help li.active {
   opacity: 1;
   height: auto;
   -transition: all 0.2s ease-in-out;
+  -webkit-transition: all 0.2s ease-in-out;
   transition: all 0.2s ease-in-out; }
 
 .course-create-help li span {
@@ -828,6 +832,7 @@ h3.course_status span .switch {
   max-width: 200px;
   background: #f6f6f6;
   border-radius: 30px;
+  -webkit-box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.1), 0 1px rgba(255, 255, 255, 0.05);
   box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.1), 0 1px rgba(255, 255, 255, 0.05); }
 
 .switch-label {
@@ -869,6 +874,7 @@ h3.course_status span .switch {
   font-weight: bold;
   color: #FFF;
   text-shadow: 0 1px rgba(255, 255, 255, 0.1);
+  -webkit-transition: 0.15s ease-out;
   transition: 0.15s ease-out; }
 
 .create_course_content .switch-input:checked + .switch-label {
@@ -889,6 +895,7 @@ h3.course_status span .switch {
   background-color: #70c989;
   border-color: #70c989;
   background-image: url(../images/button.png);
+  -webkit-transition: left 0.15s ease-out;
   transition: left 0.15s ease-out; }
 
 .switch-blue .switch-selection {
@@ -1519,6 +1526,7 @@ input[type="text"].ccf_text {
     margin: 0 15px 0 0 !important;
     background-image: none !important;
     padding: 15px 30px 15px 45px !important;
+    -webkit-transition: all 0.2s ease-in-out;
     transition: all 0.2s ease-in-out; }
     .create_course_content #course_curriculum .vibe_vibe_course_curriculum .button.primary:before, .create_course_content #course_curriculum .vibe_vibe_events .button.primary:before, .create_course_content #course_components .vibe_vibe_course_curriculum .button.primary:before, .create_course_content #course_components .vibe_vibe_events .button.primary:before, .create_course_content #events .vibe_vibe_course_curriculum .button.primary:before, .create_course_content #events .vibe_vibe_events .button.primary:before,
     .edit_course_content #course_curriculum .vibe_vibe_course_curriculum .button.primary:before,
@@ -1541,6 +1549,7 @@ input[type="text"].ccf_text {
     margin: 30px 0 0;
     border: 3px dotted #EEE;
     text-align: center;
+    -webkit-transition: all 0.2s ease-in-out;
     transition: all 0.2s ease-in-out; }
     .create_course_content #course_curriculum .vibe_vibe_course_curriculum .add_element .button.primary, .create_course_content #course_curriculum .vibe_vibe_events .add_element .button.primary, .create_course_content #course_components .vibe_vibe_course_curriculum .add_element .button.primary, .create_course_content #course_components .vibe_vibe_events .add_element .button.primary, .create_course_content #events .vibe_vibe_course_curriculum .add_element .button.primary, .create_course_content #events .vibe_vibe_events .add_element .button.primary,
     .edit_course_content #course_curriculum .vibe_vibe_course_curriculum .add_element .button.primary,
@@ -2711,7 +2720,8 @@ input[type="text"].ccf_text {
   .edit_course_content #course_components .element_overlay .form-control.no-border,
   .edit_course_content #events .element_overlay .form-control.no-border {
     border: none;
-    box-shadow: none;
+    -webkit-box-shadow: none;
+            box-shadow: none;
     padding: 0;
     font-size: 16px; }
   .create_course_content #course_curriculum .element_overlay .button, .create_course_content #course_components .element_overlay .button, .create_course_content #events .element_overlay .button,
@@ -2852,6 +2862,7 @@ input[type="text"].ccf_text {
       opacity: 0;
       display: inline-block;
       float: left;
+      -webkit-transition: all 0.2s ease-in-out;
       transition: all 0.2s ease-in-out; }
       .create_course_content #course_curriculum .element_overlay .list-group .list-group-item.assignment_block ul.data_links > li, .create_course_content #course_curriculum .element_overlay .list-group .list-group-item.question_block ul.data_links > li, .create_course_content #course_components .element_overlay .list-group .list-group-item.assignment_block ul.data_links > li, .create_course_content #course_components .element_overlay .list-group .list-group-item.question_block ul.data_links > li, .create_course_content #events .element_overlay .list-group .list-group-item.assignment_block ul.data_links > li, .create_course_content #events .element_overlay .list-group .list-group-item.question_block ul.data_links > li,
       .edit_course_content #course_curriculum .element_overlay .list-group .list-group-item.assignment_block ul.data_links > li,
@@ -2963,6 +2974,7 @@ input[type="text"].ccf_text {
     margin: 30px 0 0;
     border: 3px dotted #EEE;
     text-align: center;
+    -webkit-transition: all .2s ease-in-out;
     transition: all .2s ease-in-out;
     display: inline-block;
     width: 100%;
@@ -3360,7 +3372,8 @@ CREATE COURSE TEMPLATES
   font-size: 32px; }
 
 .course_template:hover {
-  box-shadow: 0 1px 5px rgba(0, 0, 0, 0.4); }
+  -webkit-box-shadow: 0 1px 5px rgba(0, 0, 0, 0.4);
+          box-shadow: 0 1px 5px rgba(0, 0, 0, 0.4); }
 
 #course_live {
   min-height: 700px;

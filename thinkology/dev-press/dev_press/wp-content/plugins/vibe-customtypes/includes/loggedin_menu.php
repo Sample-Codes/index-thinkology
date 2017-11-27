@@ -16,7 +16,7 @@
 
     public function __construct(){
     	add_filter('wplms_lms_commission_tabs',array($this,'add_loggedin_menu_settings'));
-    	add_filter('lms_general_settings',array($this,'generate_loggedin_menu_form'),9999);
+    	add_filter('lms_general_settings',array($this,'generate_loggedin_menu_form'),99);
     	add_filter('wplms_logged_in_top_menu',array($this,'apply_loggedin_menu'),1);
     }
 

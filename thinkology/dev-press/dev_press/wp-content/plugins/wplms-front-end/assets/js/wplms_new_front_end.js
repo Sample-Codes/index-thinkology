@@ -1252,6 +1252,11 @@ jQuery(document).ready(function($){
                 placeholder: placeholder,
                 closeOnSelect: true,
                 allowClear: true,
+                language: {
+                  inputTooShort: function() {
+                    return vibe_course_module_strings.enter_more_characters;
+                  }
+                },
                 ajax: {
                     url: ajaxurl,
                     type: "POST",

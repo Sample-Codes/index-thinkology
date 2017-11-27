@@ -18,11 +18,11 @@
     	add_filter('wplms_lms_commission_tabs',array($this,'add_course_menu_settings'));
     	add_filter('lms_general_settings',array($this,'generate_course_menu_form'));
 
-    	add_filter('wplms_course_nav_menu',array($this,'get_course_nav_menu_array'),99999999);
+    	add_filter('wplms_course_nav_menu',array($this,'get_course_nav_menu_array'),99);
     	add_action('wp_ajax_save_course_menus',array($this,'save_course_menus'));
     	add_action('wp_ajax_reset_course_menus',array($this,'reset_course_menus'));
     	//process menus
-    	add_filter('wplms_course_nav_menu',array($this,'process_wplms_course_nav_menu'),9999999999);
+    	add_filter('wplms_course_nav_menu',array($this,'process_wplms_course_nav_menu'),99);
 
     	//restrict access
     	add_action('bp_template_redirect',array($this,'course_nav_access'),99);

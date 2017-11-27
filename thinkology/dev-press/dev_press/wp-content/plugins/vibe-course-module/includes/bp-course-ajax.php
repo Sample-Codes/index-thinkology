@@ -798,7 +798,7 @@ class BP_Course_Ajax{
                       <strong>'.get_the_title($c).' <span>'.((isset($status) && $status !='')?__('MARKS: ','vibe').$marks.__(' out of ','vibe').$max:__(' PENDING','vibe')).'</span></strong>
                       </li>';
             }else{
-                $status = get_user_meta($user_id,$c,true);
+                $status = bp_course_get_user_unit_completion_time($user_id,$c,$course_id);
                 echo '<li>
                       <strong>'.get_the_title($c).' <span>'.((isset($status) && $status !='')?'<i class="icon-check"></i> '.__('DONE','vibe'):'<i class="icon-alarm-1"></i>'.__(' PENDING','vibe')).'</span></strong>
                       </li>';
@@ -806,11 +806,15 @@ class BP_Course_Ajax{
           }else{
 
           }
-        }     
+        }
+        //if existing marks 
+        $existing_marks = 0;
+        $existing_marks = get_post_meta($course_id,$user_id,true); 
+
         do_action('wplms_course_manual_evaluation',$course_id,$user_id);
         echo '</ul>';
         echo '<div id="total_marks">'.__('Total','vibe').' <strong><span>'.apply_filters('wplms_course_student_marks',$sum,$course_id,$user_id).'</span> / '.apply_filters('wplms_course_maximum_marks',$max_sum,$course_id,$user_id).'</strong> </div>';
-        echo '<div id="course_marks">'.__('Course Percentage (Out of 100)','vibe').' <strong><span><input type="number" name="course_marks" id="course_marks_field" class="form_field" value="0" placegolder="'.__('Course Percentage out of 100','vibe').'" /></span></div>';
+        echo '<div id="course_marks">'.__('Course Percentage (Out of 100)','vibe').' <strong><span><input type="number" name="course_marks" id="course_marks_field" class="form_field" value="'.(!empty($existing_marks)?$existing_marks:'0').'" placegolder="'.__('Course Percentage out of 100','vibe').'" /></span></div>';
         echo '<a href="#" id="course_complete" class="button full" data-course="'.$course_id.'" data-user="'.$user_id.'">'.__('Mark Course Complete','vibe').'</a>';
         
         wp_nonce_field($course_id,'security');

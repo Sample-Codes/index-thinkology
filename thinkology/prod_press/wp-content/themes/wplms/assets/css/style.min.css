@@ -33087,3 +33087,7 @@ div.mce-panel {
 .directory.course.buddypress a.button.create-group-button.full {
     display: none;
 }
+
+/*hide + button for skill group*/
+
+.category_filter>li>span{display:none;}

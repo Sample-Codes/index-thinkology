@@ -749,11 +749,7 @@ if(!function_exists('bp_course_item_view')){
    		?>	
    		<li class="<?php echo $course_classes; ?>">
    			<div class="row">
-   				<div class="col-md-4 col-sm-4">
-					<div class="item-avatar" data-id="<?php echo get_the_ID(); ?>">
-						<?php bp_course_avatar(); ?>
-					</div>
-				</div>
+
 				<div class="col-md-8 col-sm-8">
 					<div class="item">
 						<div class="item-title"><?php bp_course_title(); if(get_post_status() != 'publish'){echo '<i> ( '.get_post_status().' ) </i>';} ?></div>
@@ -780,6 +776,11 @@ if(!function_exists('bp_course_item_view')){
 						<?php do_action( 'bp_directory_course_item' ); ?>
 					</div>
 				</div>
+                <div class="col-md-4 col-sm-4">
+                    <div class="item-avatar" data-id="<?php echo get_the_ID(); ?>">
+                        <?php bp_course_avatar(); ?>
+                    </div>
+                </div>
 			</div>
 		</li>	
    	<?php

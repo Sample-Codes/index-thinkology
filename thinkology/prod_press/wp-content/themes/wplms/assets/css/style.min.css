@@ -21541,7 +21541,7 @@ header.sleek.center nav {
 
 .content {
     margin: 30px 0;
-    padding: 30px;
+    padding: 11px;
     background: #FFF;
     border-radius: 2px;
     display: inline-block;
@@ -33076,7 +33076,7 @@ div.mce-panel {
     display: none;
 }
 /*//delete: footer/header/title - custom css*/
-#headertop, .header_content, footer{display:none;}
+/*.header_content,*/ #headertop, footer{display:none;}
 
 /* Hide "All Courses" in Course Category Navigation*/
 #buddypress div.item-list-tabs  {
@@ -33091,3 +33091,12 @@ div.mce-panel {
 /*hide + button for skill group*/
 
 .category_filter>li>span{display:none;}
+
+/*header top - logo and search bar*/
+.col-md-4.left #logo img{max-height: 60px;max-width: 235px;}
+.header_content {background-color: rgb(77, 84, 93);border-top: 2px solid #00b1b3; padding: 11.5px 0;}
+
+
+.menu-item.menu-item-type-taxonomy.menu-item-object-course-cat a:hover {
+    color: #049eeb !important;
+}

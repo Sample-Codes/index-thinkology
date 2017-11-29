@@ -64,9 +64,9 @@ $id= vibe_get_bp_page_id('course');
 						<ul>
 							<?php do_action( 'bp_course_directory_course_types' ); ?>
 							<li>
-								<div class="dir-search" role="search">
-									<?php bp_directory_course_search_form(); ?>
-								</div><!-- #group-dir-search -->
+                                <div class="dir-search" role="search">
+                                    <?php bp_directory_course_search_form(); ?>
+                                </div><!-- #group-dir-search -->
 							</li>
 							<li class="switch_view">
 								<div class="grid_list_wrapper">
@@ -83,9 +83,10 @@ $id= vibe_get_bp_page_id('course');
 									<option value=""><?php _e( 'Select Order', 'vibe' ); ?></option>
 									<option value="newest"><?php _e( 'Newly Published', 'vibe' ); ?></option>
 									<option value="alphabetical"><?php _e( 'Alphabetical', 'vibe' ); ?></option>
-									<option value="popular"><?php _e( 'Most Members', 'vibe' ); ?></option>
-									<option value="rated"><?php _e( 'Highest Rated', 'vibe' ); ?></option>
-									<option value="start_date"><?php _e( 'Start Date', 'vibe' ); ?></option>
+									<!--kurskii-->
+                                    <!--<option value="popular"><?php /*_e( 'Most Members', 'vibe' ); */?></option>-->
+									<!--<option value="rated"><?php /*_e( 'Highest Rated', 'vibe' ); */?></option>-->
+									<!--<option value="start_date"><?php /*_e( 'Start Date', 'vibe' ); */?></option>-->
 									<?php do_action( 'bp_course_directory_order_options' ); ?>
 								</select>
 							</li>

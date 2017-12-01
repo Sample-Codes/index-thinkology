@@ -2379,7 +2379,7 @@
                 </div>
             </div>
         </section>
-        <section class="footer-section top">
+        <!--<section class="footer-section top">
             <div class="container">
                 <div class="columns">
                     <div data-wow-delay=".5s" class="column is-5 wow fadeIn"
@@ -2403,7 +2403,7 @@
                     </div>
                 </div>
             </div>
-        </section>
+        </section>-->
         <section class="footer-section bottom">
             <footer class="container">
                 <div class="columns mb-3">

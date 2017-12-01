@@ -516,7 +516,9 @@ function bp_course_category_filter_cookie(){
         if($('#active_filters').length){
           $('#active_filters').fadeIn(200);
         }else{
-          $('#course-dir-list').before('<ul id="active_filters"><li>'+vibe_course_module_strings.active_filters+'</li></ul>');
+            /*kurskii*/
+            $('#course-dir-list').before('<ul id="active_filters"><li>'+'Активные фильтры'+'</li></ul>');
+          /*$('#course-dir-list').before('<ul id="active_filters"><li>'+vibe_course_module_strings.active_filters+'</li></ul>');*/
         }
         //Detect and activate specific filters
         jQuery.each(category_filter, function(index, item) {
@@ -596,7 +598,9 @@ function bp_course_category_filter_cookie(){
         });
 
         if(!$('#active_filters .all-filter-clear').length)
-            $('#active_filters').append('<li class="all-filter-clear">'+vibe_course_module_strings.clear_filters+'</li>');
+            /*kurskii*/
+            $('#active_filters').append('<li class="all-filter-clear">'+'Очистить фильтры'+'</li>');
+            /*$('#active_filters').append('<li class="all-filter-clear">'+vibe_course_module_strings.clear_filters+'</li>');*/
 
         // Clear all Filters link
         $('#active_filters li.all-filter-clear').click(function(){

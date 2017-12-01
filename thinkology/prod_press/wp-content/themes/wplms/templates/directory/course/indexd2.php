@@ -63,10 +63,12 @@ $id= vibe_get_bp_page_id('course');
 					<div class="item-list-tabs" id="subnav" role="navigation">
 						<ul>
 							<?php do_action( 'bp_course_directory_course_types' ); ?>
-							<li>
+							<!--kurskii-->
+                            <li>
                                 <div class="dir-search" role="search">
                                     <?php bp_directory_course_search_form(); ?>
-                                </div><!-- #group-dir-search -->
+                                </div>
+                                <!-- #group-dir-search -->
 							</li>
 							<li class="switch_view">
 								<div class="grid_list_wrapper">

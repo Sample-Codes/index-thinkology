@@ -113,7 +113,7 @@ if (!defined('ABSPATH')) exit;
         </div>
         <header class="standard center <?php if (isset($fix) && $fix) {
             echo 'fix';
-        } ?>">
+        } ?>" style="background-color: #f6f6f6">
             <div class="<?php echo vibe_get_container(); ?>">
                 <div class="row">
                     <div class="col-md-12">

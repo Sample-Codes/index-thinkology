@@ -1,4 +1,4 @@
-<?php 
+<?php
 if ( ! defined( 'ABSPATH' ) ) exit;
 ?>
 <div id="footerbottom">
@@ -43,6 +43,6 @@ if ( ! defined( 'ABSPATH' ) ) exit;
 	<!-- SCRIPTS -->
 <?php
 wp_footer();
-?> 
+?>
 </body>
 </html>

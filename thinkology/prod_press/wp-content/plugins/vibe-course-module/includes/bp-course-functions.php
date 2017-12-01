@@ -217,7 +217,9 @@ function bp_directory_course_search_form() {
 	$search_value         = !empty( $_REQUEST['s'] ) ? stripslashes( $_REQUEST['s'] ) : $default_search_value;
 
 	$search_form_html = '<form action="" method="get" id="search-course-form">
-		<label><input type="text" name="s" id="course_search" placeholder="'. esc_attr( $search_value ) .'" /></label>
+		<!--kurskii-->
+		<!--<label><input type="text" name="s" id="course_search" placeholder="'. esc_attr( $search_value ) .'" /></label>-->
+		<label><input type="text" name="s" id="course_search" placeholder="Что учить дальше?" /></label>
 		<input type="submit" id="course_search_submit" name="course_search_submit" value="'. __( 'Search', 'vibe' ) .'" />
 	</form>';
 

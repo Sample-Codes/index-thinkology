@@ -928,9 +928,15 @@
                 </div>
                 <span class="nav-toggle"><span></span> <span></span> <span></span></span>
                 <div class="nav-right nav-menu">
-                    <!--<a href="/join" class="nav-item is-bold in-caps">
+                    <!--kurskii-->
+                    <!--<a href="/register" class="vbpregister nav-item is-bold in-caps" style="color: #4d545d">
                         Новый
-                    </a> <a href="/login" class="nav-item is-bold color-primary in-caps">
+                    </a>-->
+                    <!--kurskii-->
+                    <!--<a href="/login" class="nav-item is-bold color-primary in-caps">
+                        Войти
+                    </a>-->
+                    <!--<a href="login" rel="nofollow" class="smallimg vbplogin nav-item is-bold color-primary in-caps">
                         Войти
                     </a>-->
                 </div>
@@ -961,7 +967,7 @@
                                     class="nav-bottom-title">Войти</span></a></li>
                     <li class="is-hidden-tablet"><a href="/join" class="nav-bottom-link"><span class="nav-bottom-title">Новый</span></a>
                     </li>-->
-                    <li><a href="/lessons" class="nav-bottom-link "><span class="icon icon-catalog"></span> <span
+                    <li><a href="/all-courses" class="nav-bottom-link "><span class="icon icon-catalog"></span> <span
                                     class="nav-bottom-title">Каталог</span></a></li>
                     <li><a href="/all-courses" class="nav-bottom-link "><span class="icon icon-series"></span> <span
                                     class="nav-bottom-title">Эпизоды</span></a></li>
@@ -2433,7 +2439,7 @@
                     <div class="column is-2 is-offset-1 is-hidden-mobile">
                         <h5 class="heading is-5 in-caps">Учиться</h5>
                         <ul class="footer-links-list">
-                            <li><a href="/lessons">Каталог</a></li>
+                            <li><a href="/all-courses">Каталог</a></li>
                             <!--<li><a href="/index">Lesson Index</a></li>
                             <li><a href="/shop">Shop</a></li>-->
                             <!--<li><a href="/recommended-reading">Books</a></li>-->

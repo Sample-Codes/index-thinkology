@@ -23799,7 +23799,9 @@ section#title {
 }
 
 #buddypress #pag-top.pagination {
-    padding-top: 0
+    padding-top: 0;
+
+    display:none;
 }
 
 #buddypress #pag-bottom.pagination {
@@ -24514,7 +24516,9 @@ body.activity-permalink .ac-reply-content {
 }
 
 #buddypress ul.item-list li a {
-    font-weight: 600
+    /*kurskii*/
+    font-weight: 500;
+    color:#4d545d;
 }
 
 #buddypress ul.item-list li a span {
@@ -24945,7 +24949,8 @@ body.activity-permalink .ac-reply-content {
     width: auto;
     display: inline-block;
     margin-left: 10px;
-    float: right
+    float: right;
+    display: none;
 }
 
 #buddypress .item-list-tabs#subnav ul li.switch_view a {
@@ -30384,7 +30389,8 @@ hr.divider {
     padding: 8px 0;
     font-weight: 600;
     text-transform: uppercase;
-    border-bottom: 3px solid rgba(0, 0, 0, .08)
+    /*kurskii*/
+    /*border-bottom: 3px solid rgba(0, 0, 0, .08)*/
 }
 
 .progressbars {
@@ -31940,9 +31946,10 @@ footer .footerbottom {
     border-top: 1px solid rgba(255, 255, 255, .1)
 }
 
+/*kurskii*/
 footer .heading {
-    color: #fff;
-    border-bottom-color: rgba(255, 255, 255, .6)
+    color: #4d545d;
+    /*border-bottom-color: rgba(255, 255, 255, .6)*/
 }
 
 footer .product_list_widget li {
@@ -32807,7 +32814,7 @@ div.mce-panel {
 
     #buddypress ul.item-list li div.item-desc {
         clear: both;
-        margin: 10px 0 0
+        margin: 10px 0 0;
     }
 
     #buddypress ul.item-list li div.meta {
@@ -33089,7 +33096,7 @@ div.mce-panel {
     display: none;
 }
 /*//delete: footer/header/title - custom css*/
-/*.header_content,*/ #headertop, footer{display:none;}
+/*.header_content,*/  #headertop,footer{display:none;}
 
 /* Hide "All Courses" in Course Category Navigation*/
 #buddypress div.item-list-tabs  {
@@ -33119,5 +33126,7 @@ div.mce-panel {
     display: none;
 }
 
-/*hide avatar column*/
-/*#course-list .col-md-4{display:none;}*/
+#buddypress ul.item-list.grid li .item .item-desc {
+
+    color:#919499;
+}

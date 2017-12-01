@@ -754,7 +754,8 @@ if(!function_exists('bp_course_item_view')){
 					<div class="item">
 						<div class="item-title"><?php bp_course_title(); if(get_post_status() != 'publish'){echo '<i> ( '.get_post_status().' ) </i>';} ?></div>
 						<div class="item-meta"><?php bp_course_meta(); ?></div>
-						<div class="item-desc"><?php bp_course_desc(); ?></div>
+                        <!--kurskii-->
+                        <div class="item-desc" style="color:#919499;"><?php bp_course_desc(); ?></div>
 						<div class="item-credits">
 							<?php 
 								if(bp_is_my_profile()){
@@ -1134,7 +1135,17 @@ function bp_course_get_course_desc() {
 	$desc = wp_trim_words(get_the_excerpt(), $limit);
 	
 	return apply_filters('the_content',$desc);
-}	
+}
+
+/*kurskii*/
+function bp_course_get_course_cat() {
+    global $post;
+    $limit = apply_filters('excerpt_length',55);
+    $desc = wp_trim_words(get_the_excerpt(), $limit);
+
+    return $desc;
+}
+/**/
 
 function bp_course_action() {
 	echo bp_course_get_course_action();

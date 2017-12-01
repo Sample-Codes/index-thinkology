@@ -76,13 +76,13 @@ $id= vibe_get_bp_page_id('course');
 							</li>
 							<li id="course-order-select" class="last filter">
 
-								<label for="course-order-by"><?php _e( 'Order By:', 'vibe' ); ?></label>
+								<label for="course-order-by"><?php _e( 'Сортировать:', 'vibe' ); ?></label>
 								<select id="course-order-by">
 									<?php
 									?>
-									<option value=""><?php _e( 'Select Order', 'vibe' ); ?></option>
-									<option value="newest"><?php _e( 'Newly Published', 'vibe' ); ?></option>
-									<option value="alphabetical"><?php _e( 'Alphabetical', 'vibe' ); ?></option>
+									<option value=""><?php _e( 'Порядок', 'vibe' ); ?></option>
+									<option value="newest"><?php _e( 'Сначала новые', 'vibe' ); ?></option>
+									<option value="alphabetical"><?php _e( 'По-алфавиту', 'vibe' ); ?></option>
 									<!--kurskii-->
                                     <!--<option value="popular"><?php /*_e( 'Most Members', 'vibe' ); */?></option>-->
 									<!--<option value="rated"><?php /*_e( 'Highest Rated', 'vibe' ); */?></option>-->
@@ -94,7 +94,6 @@ $id= vibe_get_bp_page_id('course');
 					</div>
 					<div id="course-dir-list" class="course dir-list">
 						<?php locate_template( array( 'course/course-loop.php' ), true ); ?>
-
 					</div><!-- #courses-dir-list -->
 
 					<?php do_action( 'bp_directory_course_content' ); ?>

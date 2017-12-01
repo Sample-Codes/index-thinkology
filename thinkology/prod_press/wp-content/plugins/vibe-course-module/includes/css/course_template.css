@@ -763,6 +763,8 @@ ul.check_options {
 	margin-bottom:8px;margin-top:0;
 	border-bottom:2px solid #EFEFEF;
 	font-size:16px;text-transform:uppercase;
+	/*kurskii*/
+	color: #04c4f3;
 }
 .course_filters ul+h4{margin-top:10px;}
 .widget .course_filters ul.date_filter li{

@@ -40,6 +40,8 @@ if ( bp_course_has_items( bp_ajax_querystring( 'course' ) ) ) : ?>
 			$cache_duration = vibe_get_option('cache_duration'); if(!isset($cache_duration)) $cache_duration=86400;
 			if($cache_duration){
 				$course_key= 'course_'.$post->ID;
+				/*kurskii*/
+
 				if(is_user_logged_in()){
 					$user_id = get_current_user_id();
 					$user_meta = get_user_meta($user_id,$post->ID,true);

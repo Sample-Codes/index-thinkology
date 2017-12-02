@@ -315,7 +315,7 @@ span {
 strong {
   /*kurskii*/
   /*color: #4d545d;*/
-  font-weight: 700
+  /*font-weight: 700*/
 }
 
 pre {
@@ -2776,8 +2776,9 @@ a.box:active {
 }
 
 .ais-refinement-list__count, .number, .tag {
-  background-color: #f5f7fa;
-  border-radius: 290486px;
+  /*kurskii*/
+  background-color: #a1a1a1;
+  border-radius: 290486px;}
   vertical-align: top
 }
 
@@ -2856,7 +2857,7 @@ a.box:active {
 }
 
 .is-small.ais-refinement-list__count, .tag.is-small {
-  font-size: 11px;
+  font-size: 13px;
   height: 20px;
   padding-left: 8px;
   padding-right: 8px

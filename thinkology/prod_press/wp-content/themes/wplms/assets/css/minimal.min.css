@@ -53,8 +53,13 @@
     border: none
 }
 
-.minimal header #searchform input[type=text], .minimal header.sleek.transparent.fixed, .minimal nav .sub-menu > li {
+.minimal header #searchform input[type=text], .minimal header.sleek.transparent.fixed {
     border-bottom: 1px solid rgba(0, 0, 0, .08)
+}
+
+/*kurskii*/
+.sub-menu > li {
+    border-bottom: none;
 }
 
 .minimal header #searchform, .minimal header .woocart, .minimal nav .sub-menu {

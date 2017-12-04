@@ -2116,6 +2116,7 @@
                     </div>
                 </div>
             </div>
+
         </section>
         <section class="about-laracasts">
             <div class="container">

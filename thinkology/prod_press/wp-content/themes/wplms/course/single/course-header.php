@@ -24,7 +24,8 @@ do_action( 'bp_before_course_header' );
 	
 	<?php do_action( 'bp_before_course_header_meta' ); ?>
 
-	<div id="item-meta">
+	<!--kurskii-->
+    <div id="item-meta">
 		<?php bp_course_meta(); ?>
 		<?php do_action( 'bp_course_header_actions' ); ?>
 

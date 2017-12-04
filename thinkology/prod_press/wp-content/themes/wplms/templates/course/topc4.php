@@ -22,7 +22,7 @@ if($header == 'transparent' || $header == 'generic'){
 	<div id="buddypress">
 		<div class="<?php echo vibe_get_container(); ?>">
 			<div class="row">
-				<div class="col-md-9">
+				<div class="col-md-12">
 					<div id="item-header" role="complementary">
 						<?php 
 						if($header == 'transparent' || $header == 'generic'){ 

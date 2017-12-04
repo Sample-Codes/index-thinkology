@@ -4,23 +4,24 @@ if ( ! defined( 'ABSPATH' ) ) exit;
 do_action('wplms_single_course_content_end');
 ?>
 					</div>
-					<div class="col-md-3">	
+<!--kurskii-->
+					<!--<div class="col-md-3">
 						<div class="widget pricing" id="course-pricing">
-							<?php the_course_button(); ?>
-							<?php the_course_details(); ?>
+							<?php /*the_course_button(); */?>
+							<?php /*the_course_details(); */?>
 						</div>
 						<div id="item-admins">
 
-							<h3><?php _e( 'Instructors', 'vibe' ); ?></h3>
+							<h3><?php /*_e( 'Instructors', 'vibe' ); */?></h3>
 							<?php
-							bp_course_instructor();
+/*							bp_course_instructor();
 
 							do_action( 'bp_after_course_menu_instructors' );
-							?>
+							*/?>
 						</div><!-- #item-actions -->
-						<div class="students_undertaking">
+						<!--<div class="students_undertaking">
 							<?php
-							$students_undertaking=array();
+/*							$students_undertaking=array();
 							$students_undertaking = bp_course_get_students_undertaking();
 							$students=get_post_meta(get_the_ID(),'vibe_students',true);
 
@@ -31,13 +32,13 @@ do_action('wplms_single_course_content_end');
 								echo '<li>'.get_avatar($student).'</li>';
 							}
 							echo '</ul>';
-							?>
+							*/?>
 						</div>
 					 	<?php
-					 		$sidebar = apply_filters('wplms_sidebar','coursesidebar',get_the_ID());
-			                if ( !function_exists('dynamic_sidebar')|| !dynamic_sidebar($sidebar) ) : ?>
-		               	<?php endif; ?>
-					</div>
+/*					 		$sidebar = apply_filters('wplms_sidebar','coursesidebar',get_the_ID());
+			                if ( !function_exists('dynamic_sidebar')|| !dynamic_sidebar($sidebar) ) : */?>
+		               	<?php /*endif; */?>
+					</div>-->
 				</div><!-- .padder -->
 			</div><!-- #container -->
 		</div>

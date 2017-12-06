@@ -21815,14 +21815,33 @@ section#title {
     padding-top: 30px
 }
 
+
 .pagetitle h1 {
     margin: 0;
     padding: 0;
-    font-weight: 600
+    /*kurskii*/
+    font-weight: 500;
+    font-size: 48px;
+    color: white;
+    animation: fadein 2s;
+    -moz-animation: fadein 2s; /* Firefox */
+    -webkit-animation: fadein 2s; /* Safari and Chrome */
+    -o-animation: fadein 2s; /* Opera */
 }
 
 .pagetitle h5 {
     margin-bottom: 10px
+}
+
+/*kurskii*/
+.pagetitle p{
+    color: hsla(0,0%,100%,.7);
+    font-size: 100%;
+    animation: fadein 4s;
+    -moz-animation: fadein 4s; /* Firefox */
+    -webkit-animation: fadein 4s; /* Safari and Chrome */
+    -o-animation: fadein 4s; /* Opera */
+
 }
 
 .single-wplms-assignment .pagetitle > span a {
@@ -27445,6 +27464,7 @@ label.strong span {
     /*kurskii*/
     font-weight: 500;
     color:#4d545d;
+    font-size:50px;
 }
 
 .single-course.c4 #buddypress #item-header div#item-header-content .breadcrumbs li, .single-course.c4 #buddypress #item-header div#item-header-content .breadcrumbs li a, .single-course.c4 #buddypress #item-header div#item-header-content .breadcrumbs li:before {
@@ -27481,7 +27501,8 @@ label.strong span {
 
 .single-course.c4 #buddypress #item-header #item-header-avatar {
     border-bottom: 0;
-    margin-top: 30px
+    margin-top: 30px;
+    display:none;
 }
 
 .single-course.c4 #buddypress .item-list-tabs#object-nav {
@@ -33141,3 +33162,12 @@ div.mce-panel {
     color:#919499;
 }
 
+/*Course page*/
+/*title*/
+
+/*description*/
+.small_desc p{
+    color: #7d8793;
+    font-weight: 400;
+    font-size: 18px;
+}

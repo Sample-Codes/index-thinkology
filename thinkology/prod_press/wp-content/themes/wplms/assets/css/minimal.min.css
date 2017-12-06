@@ -10,10 +10,18 @@
     background: #FFF
 }
 
-.minimal .pusher #coursestitle, .minimal .pusher #grouptitle#activitytitle, .minimal .pusher #memberstitle, .minimal .pusher #title {
+.minimal .pusher #coursestitle, .minimal .pusher #grouptitle#activitytitle, .minimal .pusher #memberstitle {
     background: #fafafa;
     padding-bottom: 30px
 }
+/*kurskii*/
+.minimal .pusher #title{
+    background: linear-gradient(-45deg,#00b1b3,#1d5086);
+    color: #fff;
+
+}
+
+
 
 .minimal .pusher .courseheader, .minimal .pusher .group_header, .minimal .pusher .member_header {
     background: #fafafa
@@ -38,7 +46,7 @@
     padding-top: 8px;
     padding-bottom: 8px;
     line-height: 20px;
-    font-weight: 600
+    font-weight: 500;
 }
 
 .minimal #headertop .headertop_content .email, .minimal #headertop .headertop_content .mobile {

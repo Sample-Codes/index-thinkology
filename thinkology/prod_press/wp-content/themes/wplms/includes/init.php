@@ -231,6 +231,7 @@ class WPLMS_Init{
         if(empty($this->customizer))            
             $this->customizer = get_option('vibe_customizer');
 
+
         if(empty($this->customizer))
             return;
         if(isset($this->customizer['header_style']))

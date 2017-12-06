@@ -9177,7 +9177,12 @@ pre code {
 
 .row {
     margin-left: -15px;
-    margin-right: -15px
+    margin-right: -15px;
+
+}
+
+#pad{
+    padding:50px 0;
 }
 
 .row:after {
@@ -21817,16 +21822,16 @@ section#title {
 
 
 .pagetitle h1 {
-    margin: 0;
+    margin: 0 0 40px 0;
     padding: 0;
     /*kurskii*/
     font-weight: 500;
     font-size: 48px;
     color: white;
-    animation: fadein 2s;
-    -moz-animation: fadein 2s; /* Firefox */
-    -webkit-animation: fadein 2s; /* Safari and Chrome */
-    -o-animation: fadein 2s; /* Opera */
+    animation: fadein 3s;
+    -moz-animation: fadein 3s; /* Firefox */
+    -webkit-animation: fadein 3s; /* Safari and Chrome */
+    -o-animation: fadein 3s; /* Opera */
 }
 
 .pagetitle h5 {
@@ -21836,8 +21841,9 @@ section#title {
 /*kurskii*/
 .pagetitle p{
     color: hsla(0,0%,100%,.7);
-    font-size: 100%;
+    font-size: 18px;
     animation: fadein 4s;
+    padding-top:
     -moz-animation: fadein 4s; /* Firefox */
     -webkit-animation: fadein 4s; /* Safari and Chrome */
     -o-animation: fadein 4s; /* Opera */
@@ -29478,10 +29484,13 @@ section.stripe .v_column {
 .block.simple .block_content .simple_category a:before, .block.simple .block_media a:before {
     content: '';
     width: 100%;
-    background: #009dd8;
+    /*kurskii*/
+    /*background: #009dd8;*/
+    background: #41a3ff;
     left: 0;
     transform: translateX(-100%);
-    transition: all .2s ease-in-out
+    transition: all .2s ease-in-out;
+    border-radius: 8px;
 }
 
 .block.simple {
@@ -33127,7 +33136,7 @@ div.mce-panel {
     display: none;
 }
 /*//delete: footer/header/title - custom css*/
-/*.header_content,*/  #headertop,footer{display:none;}
+/*.header_content,*/  /*#headertop,*/footer{display:none;}
 
 /* Hide "All Courses" in Course Category Navigation*/
 #buddypress div.item-list-tabs  {

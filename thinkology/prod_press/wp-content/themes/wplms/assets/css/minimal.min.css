@@ -16,7 +16,9 @@
 }
 /*kurskii*/
 .minimal .pusher #title{
-    background: linear-gradient(-45deg,#00b1b3,#1d5086);
+    /*background: linear-gradient(-45deg,#00b1b3,#1d5086);*/
+    background: -webkit-linear-gradient(-45deg,#41a3ff, #0273D4);
+    background: linear-gradient(-45deg,#41a3ff, #0273D4);
     color: #fff;
 
 }

@@ -1026,8 +1026,7 @@
                             обучающих видео скучны. Эти - нет. Готовы пойти дальше?
                         </p>
                         <div data-wow-delay=".6s" class="wow zoomIn"
-                             style="visibility: visible; animation-delay: 0.6s; animation-name: zoomIn;"><a href="/join"
-                                                                                                            class="button is-default is-primary mr-1-tablet mb-1-mobile w-100-mobile">Начать</a>
+                             style="visibility: visible; animation-delay: 0.6s; animation-name: zoomIn;"><!--<a href="/join" class="button is-default is-primary mr-1-tablet mb-1-mobile w-100-mobile">Начать</a>-->
                             <a href="/all-courses"
                                class="button is-success is-default is-outlined mb-1-mobile w-100-mobile">Смотреть
                                 Все</a></div>

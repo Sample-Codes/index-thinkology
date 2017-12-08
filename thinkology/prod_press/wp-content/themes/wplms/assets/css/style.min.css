@@ -29017,6 +29017,16 @@ label.strong span {
     position: relative
 }
 
+/*kurskii*/
+.block .block_media,.block.courseitem .block_content .star-rating, .block.courseitem .block_content .star-rating .course-star-rating {
+    display:none;
+}
+
+/*kurskii*/
+.block_content strong, .block_content span, .block_content .instructor_course, .block.courseitem span.clear{
+    display:none;
+}
+
 [class*=span].v_first {
     margin-left: 0
 }
@@ -29204,6 +29214,7 @@ section.stripe .v_column {
     margin: 0 15px 15px 0
 }
 
+
 .block.courseitem {
     margin-bottom: 30px
 }
@@ -29213,7 +29224,8 @@ section.stripe .v_column {
     background: #FFF;
     width: 100%;
     padding: 0 15px 15px;
-    border: 1px solid rgba(0, 0, 0, .08);
+    /*kurskii*/
+    /*border: 1px solid rgba(0, 0, 0, .08);*/
     border-bottom-left-radius: 2px;
     border-bottom-right-radius: 2px
 }
@@ -29226,9 +29238,10 @@ section.stripe .v_column {
 }
 
 .block.courseitem .block_content .block_title {
-    font-weight: 600;
+    font-weight: 500;
     padding: 15px 0;
-    border-bottom: 1px solid rgba(0, 0, 0, .08)
+    /*kurskii*/
+    /*border-bottom: 1px solid rgba(0, 0, 0, .08)*/
 }
 
 .block.courseitem .block_content .star-rating {
@@ -29307,7 +29320,9 @@ section.stripe .v_column {
     clear: both;
     display: block;
     margin: 0 0 15px;
-    border-top: 1px solid rgba(0, 0, 0, .08)
+    border-top: 1px solid rgba(0, 0, 0, .08);
+    /*kurskii*/
+    display:none;
 }
 
 .block.courseitem + a strong, .block.courseitem + strong {
@@ -30606,9 +30621,14 @@ hr.divider {
 
 .three_fourth {
     width: 75%;
-    float: left
+    float: left;
+    /*kurskii*/
+    color:#7d8793;
 }
 
+.three_fourth {
+
+}
 .two_fifth {
     width: 40%;
     float: left
@@ -33136,7 +33156,7 @@ div.mce-panel {
     display: none;
 }
 /*//delete: footer/header/title - custom css*/
-/*.header_content,*/  /*#headertop,*/footer{display:none;}
+/*.header_content,*/  #headertop,footer{display:none;}
 
 /* Hide "All Courses" in Course Category Navigation*/
 #buddypress div.item-list-tabs  {
@@ -33177,6 +33197,18 @@ div.mce-panel {
 /*description*/
 .small_desc p{
     color: #7d8793;
-    font-weight: 400;
-    font-size: 18px;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.column_content a b{
+    color:#337ab7;
+}
+.column_content a:hover b{
+    text-decoration: underline;
+}
+
+.column_content a:visited b{
+    text-decoration: none;
+    color:#337ab7;
 }

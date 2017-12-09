@@ -29189,7 +29189,8 @@ section.stripe .v_column {
 }
 
 .block h4.block_title {
-    margin: 10px 0 0;
+    /*kurskii*/
+    margin: 0px 0 0;
     font-size: 18px;
     font-weight: 600
 }
@@ -33200,6 +33201,10 @@ div.mce-panel {
     font-weight: 500;
     font-size: 16px;
 }
+/*next course button*/
+.small_desc .one_fourth{
+    text-align: center;
+}
 
 .column_content a b{
     color:#337ab7;
@@ -33211,4 +33216,22 @@ div.mce-panel {
 .column_content a:visited b{
     text-decoration: none;
     color:#337ab7;
+}
+.column_content .primary{
+    margin-top:0px;
+}
+
+/*privacy policy css*/
+
+.container .policy{
+    border: 1px solid #00000017;
+    padding: 40px;
+
+}
+.container .policy h1{
+    font-size: 2em;
+    color: #4d545d;
+    font-weight: 300;
+    line-height: 1.125;
+    margin-bottom: 20px;
 }

@@ -2160,7 +2160,7 @@
                                     карьеры</strong>!
                             </p>
                             <p data-wow-delay=".5s" class="has-text-centered mt-2 wow fade zoomIn"
-                               style="visibility: hidden; animation-delay: 0.5s; animation-name: none;"><a href="/join"
+                               style="visibility: hidden; animation-delay: 0.5s; animation-name: none;"><a href="/all-courses"
                                                                                                            class="button is-default is-primary">
                                     Перейти к делу
                                 </a></p>
@@ -2449,7 +2449,7 @@
                             <li><a href="/podcast">Laracasts Snippet</a></li>
                             <li><a href="http://laravelpodcast.com">Laravel Podcast</a></li>-->
                             <li><a href="/testimonials">Отзывы</a></li>
-                            <li><a href="/contact">Поддержка</a></li>
+                            <!--<li><a href="/contact">Поддержка</a></li>-->
                         </ul>
                     </div>
                     <div class="column is-2 is-hidden-mobile">
@@ -2462,8 +2462,8 @@
                             <li><a href="https://hh.ru/search/vacancy?text=laravel&area=1">Получить работу</a></li>
                         </ul>
                         <ul class="zeroed footer-links-list">
-                            <li><a href="/privacy">Личные данные</a></li>
-                            <li><a href="/terms">Условия</a></li>
+                            <!--<li><a href="/privacy">Личные данные</a></li>-->
+                            <li><a href="/условия">Условия</a></li>
                         </ul>
                     </div>
                 </div>
@@ -2471,10 +2471,10 @@
                     <div class="column is-5 is-bold has-text-centered-mobile">
                         © Thinkology 2018. Все права защищены.
                     </div>
-                    <div class="column is-5 is-offset-2 has-text-right is-bold is-hidden-mobile">
+                    <!--<div class="column is-5 is-offset-2 has-text-right is-bold is-hidden-mobile">
                         С гордостью размещены на <a href="https://forge.laravel.com">Laravel Forge</a> и <a
                                 href="https://www.digitalocean.com/?refcode=d2070a2d5f35">DigitalOcean</a>.
-                    </div>
+                    </div>-->
                 </div>
             </footer>
         </section>

@@ -67,6 +67,8 @@ add_action('bp_directory_course_item', function () {
         $links[] = '<a href="' . esc_url($link) . '" rel="tag" class="tag is-small color-white">' . $term->name . '</a>';
     }
 
+    /*kurskii_level*/
+
     echo '<ul class="course_categories"> <span>' . implode('</span><span>', $links) . '</span> </ul>';
 
 

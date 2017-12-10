@@ -15,12 +15,11 @@ get_header( vibe_get_header() ); ?>
 <section id="title">
     <div class="<?php echo vibe_get_container(); ?>">
         <div class="row" id="pad">
-             <div class="col-md-12">
+             <div class="col-md-9">
                 <div class="pagetitle">
                     <!--kurskii-->
                 	<?php /*vibe_breadcrumbs(); */?>
                    	<h1><?php single_cat_title(); ?></h1>
-                    <p>Each year, the Laracasts "Laravel From Scratch" series is refreshed to reflect the latest iteration of the framework. This is the 2017 edition, which uses version 5.4 of the framework.</p> <p>Are you hoping to level up your toolset? You've come to the right place. This series will take you from installing Laravel, all the way up to mastering the essentials of the framework.</p>
                     <h5><?php echo do_shortcode(category_description()); ?></h5>
                 </div>
             </div>
@@ -65,6 +64,6 @@ get_header( vibe_get_header() ); ?>
 </div>
 </section>
 
-<?php 
+<?php
 
 get_footer( vibe_get_footer() );

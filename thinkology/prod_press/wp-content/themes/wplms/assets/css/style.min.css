@@ -24521,7 +24521,8 @@ body.activity-permalink .ac-reply-content {
 
 #buddypress ul.item-list li .item-avatar {
     text-align: center;
-    overflow: hidden
+    overflow: hidden;
+    display:none;
 }
 
 #buddypress ul.item-list li .item-avatar img {
@@ -29018,10 +29019,15 @@ label.strong span {
 }
 
 /*kurskii*/
-.block .block_media,.block.courseitem .block_content .star-rating, .block.courseitem .block_content .star-rating .course-star-rating {
+/*.block .block_media,*/.block.courseitem .block_content .star-rating, .block.courseitem .block_content .star-rating .course-star-rating {
     display:none;
 }
-
+.block .block_content{
+    text-align: center;
+}
+.block.simple{
+    margin-bottom: 30px;
+}
 /*kurskii*/
 .block_content strong, .block_content span, .block_content .instructor_course, .block.courseitem span.clear{
     display:none;
@@ -29541,13 +29547,22 @@ section.stripe .v_column {
 }
 
 .block.simple .block_content .block_title {
-    font-size: 2rem;
+    font-size: 1.5rem;
     line-height: 1.8rem;
-    font-weight: 700
+    font-weight: 500
+
+}
+
+/*kurskii*/
+.block_title a{
+    color:#4d545d;
+
 }
 
 .block.simple .block_content .simple_category {
-    margin: 10px 0 20px
+    margin: 10px 0 20px;
+    /*kurskii*/
+    display: none;
 }
 
 .block.simple .block_content .simple_category a {
@@ -33201,6 +33216,9 @@ div.mce-panel {
     font-weight: 500;
     font-size: 16px;
 }
+.small_desc>p{
+    display:none;
+}
 /*next course button*/
 .small_desc .one_fourth{
     text-align: center;
@@ -33228,7 +33246,7 @@ div.mce-panel {
     padding: 40px;
 
 }
-.container .policy h1{
+.container .policy h1 {
     font-size: 2em;
     color: #4d545d;
     font-weight: 300;

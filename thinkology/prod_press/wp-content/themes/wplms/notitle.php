@@ -2185,7 +2185,7 @@
                                 <p class="subheading has-no-padding">
                                     “Что это еще за Thinkology и почему я должен доверять им?” Справедливый вопрос!
                                     Помогут ли сотни и сотни светящиxся одобрений?
-                                </p> <a href="/testimonials" class="button is-primary is-padded">Бесчисленные Отзывы</a>
+                                </p> <a href="/отзывы" class="button is-primary is-padded">Бесчисленные Отзывы</a>
                             </div>
                             <div class="avatars"><a href="http://kroerov.ru" id="testimonial-1" target="_blank"
                                                     class="testimonial-avatar"><img
@@ -2433,6 +2433,11 @@
                         <h5 class="heading is-5 in-caps">Учиться</h5>
                         <ul class="footer-links-list">
                             <li><a href="/all-courses">Каталог</a></li>
+                            <li><a href="/course-cat/php">PHP</a></li>
+                            <li><a href="/course-cat/laravel">Laravel</a></li>
+                            <li><a href="/course-cat/testing">Тестирование</a></li>
+                            <li><a href="/course-cat/front-end">Front-End</a></li>
+                            <li><a href="/course-cat/tooling">Инструменты</a></li>
                             <!--<li><a href="/index">Lesson Index</a></li>
                             <li><a href="/shop">Shop</a></li>-->
                             <!--<li><a href="/recommended-reading">Books</a></li>-->
@@ -2448,7 +2453,7 @@
                             <!--<li><a href="/discuss">Forum</a></li>
                             <li><a href="/podcast">Laracasts Snippet</a></li>
                             <li><a href="http://laravelpodcast.com">Laravel Podcast</a></li>-->
-                            <li><a href="/testimonials">Отзывы</a></li>
+                            <li><a href="/отзывы">Отзывы</a></li>
                             <!--<li><a href="/contact">Поддержка</a></li>-->
                         </ul>
                     </div>
@@ -2463,7 +2468,7 @@
                         </ul>
                         <ul class="zeroed footer-links-list">
                             <!--<li><a href="/privacy">Личные данные</a></li>-->
-                            <li><a href="/условия">Условия</a></li>
+                            <!--<li><a href="/условия">Условия</a></li>-->
                         </ul>
                     </div>
                 </div>
@@ -2488,7 +2493,7 @@
             </svg>
 
 
-            Notifications
+            Уведомления
         </h2>
         <div class="panel-block p-2">
             <form method="POST" action="/discuss/notifications/mentions" class="has-text-centered"><input type="hidden"
@@ -2496,7 +2501,7 @@
                                                                                                           value="DELETE">
                 <input type="hidden" name="_token" value="Jtospvrz5x99A2L9eeb0Ixqor5v1W6EuBEXwLIb8">
                 <button type="submit" class="button is-outlined is-primary">
-                    Clear All Notifications
+                    Очистить все уведомления
                 </button>
             </form>
         </div>
@@ -2506,7 +2511,7 @@
         <div class="modal-card">
             <header class="modal-card-head is-primary">
                 <h4 class="modal-card-title">
-                    Welcome Back!
+                    Добро пожаловать!
                 </h4>
                 <button class="delete"></button>
             </header>
@@ -2519,7 +2524,7 @@
                         <div class="control"><input type="password" id="password" name="password" placeholder="Password"
                                                     required="required" class="input"></div>
                         <button type="submit" class="button is-primary is-submit">
-                            Log In
+                            Войти
                         </button>
                         <div class="control" style="display: none;"><span class="help is-danger">
 
@@ -2530,10 +2535,10 @@
             <footer class="modal-card-foot"><a href="/join" class="is-muted in-caps mr-a fs-smaller">
                     Новый!
                 </a> <a href="/password_resets/create" class="is-muted in-caps fs-smaller">
-                    Forgot Your Password?
+                    Забыли пароль?
                 </a></footer>
         </div>
-        <button class="modal-close">Close</button>
+        <button class="modal-close">Закрыть</button>
     </div>
     <!--<button class="pi button is-naked">π</button>-->
 </div>

@@ -33253,3 +33253,7 @@ div.mce-panel {
     line-height: 1.125;
     margin-bottom: 20px;
 }
+/*testimonials subtitle text*/
+.pagetitle h5{
+    color:hsla(0,0%,100%,.7);
+}

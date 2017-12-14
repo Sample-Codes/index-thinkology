@@ -269,7 +269,7 @@ body {
   font-weight: 500;
   line-height: 1.428571428571429
 }
-/*41a3ff   qwe*/
+
 a {
   color: #41a3ff;
   cursor: pointer;
@@ -1299,9 +1299,10 @@ a.box:active {
   position: absolute!important
 }
 
-.content a:not(.button):not(.ais-clear) {
+/*kurskii*/
+/*.content a:not(.button):not(.ais-clear) {
   border-bottom: 1px solid #d7d7d7
-}
+}*/
 
 .content a:not(.button):not(.ais-clear):visited {
   color: #847bb9
@@ -15734,3 +15735,17 @@ http://flickity.metafizzy.co
   -webkit-animation-name: slideOutUp;
   animation-name: slideOutUp
 }
+
+/*kurskii*/
+.testimonial-name a{
+  color:#41a3ff;
+}
+
+.testimonial-name a:hover{
+  color:#41a3ff;
+
+}
+.testimonial-name a:visited{
+  color:#41a3ff;
+}
+

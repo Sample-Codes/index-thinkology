@@ -982,22 +982,22 @@
                             </div>
                             <div class="dropdown-menu" style="min-width: 250px;">
                                 <ul>
-                                    <li class="dropdown-item"><a href="/course-cat/php" class=" is-flex"><span class="flex">PHP</span>
+                                    <li class="dropdown-item"><a href="/php" class=" is-flex"><span class="flex">PHP</span>
                                             <span class="is-circle icon" style="color: rgb(136, 147, 189);"></span></a>
                                     </li>
-                                    <li class="dropdown-item"><a href="/course-cat/laravel" class=" is-flex"><span
+                                    <li class="dropdown-item"><a href="/laravel" class=" is-flex"><span
                                                     class="flex">Laravel</span> <span class="is-circle icon"
                                                                                       style="color: rgb(237, 108, 99);"></span></a>
                                     </li>
-                                    <li class="dropdown-item"><a href="/course-cat/testing" class=" is-flex"><span
+                                    <li class="dropdown-item"><a href="/testing" class=" is-flex"><span
                                                     class="flex">Тестирование</span> <span class="is-circle icon"
                                                                                            style="color: rgb(144, 206, 148);"></span></a>
                                     </li>
-                                    <li class="dropdown-item"><a href="/course-cat/front-end" class=" is-flex"><span
+                                    <li class="dropdown-item"><a href="/front-end" class=" is-flex"><span
                                                     class="flex">Front-End</span> <span class="is-circle icon"
                                                                                         style="color: rgb(171, 170, 67);"></span></a>
                                     </li>
-                                    <li class="dropdown-item"><a href="/course-cat/tooling" class=" is-flex"><span
+                                    <li class="dropdown-item"><a href="/tooling" class=" is-flex"><span
                                                     class="flex">Инструменты</span> <span class="is-circle icon"
                                                                                           style="color: rgb(239, 103, 51);"></span></a>
                                     </li>
@@ -2042,13 +2042,13 @@
             <div class="container">
                 <div class="columns is-mobile is-multiline">
                     <div class="column is-2-tablet has-text-centered is-offset-1-tablet wow fadeInLeftBig"
-                         style="visibility: visible; animation-name: fadeInLeftBig;"><a href="/course-cat/laravel"><img
+                         style="visibility: visible; animation-name: fadeInLeftBig;"><a href="/laravel"><img
                                     src="wp-content/themes/wplms/images/icons/laravel-icon.png" width="55" height="70"
                                     alt="Laravel Навык" class="mb-1"></a>
-                        <h4 class="title skill-heading in-caps"><a href="/course-cat/laravel">Laravel</a></h4> <span
+                        <h4 class="title skill-heading in-caps"><a href="/laravel">Laravel</a></h4> <span
                                 class="h-divider"></span>
                         <ul>
-                            <li><a href="/course-cat/laravel" class="button is-success is-small mb-1">
+                            <li><a href="/laravel" class="button is-success is-small mb-1">
                                     15 Эпизодов
                                 </a></li>
                             <li><strong class="color-primary">21</strong> <span
@@ -2057,12 +2057,12 @@
                     </div>
                     <div data-wow-delay=".5s" class="column is-2-tablet has-text-centered wow fadeInUp"
                          style="visibility: visible; animation-delay: 0.5s; animation-name: fadeInUp;"><a
-                                href="/course-cat/php"><img src="wp-content/themes/wplms/images/icons/php-icon.png"
+                                href="/php"><img src="wp-content/themes/wplms/images/icons/php-icon.png"
                                                         width="60" height="71" alt="PHP Навык" class="mb-1"></a>
-                        <h4 class="title skill-heading"><a href="/course-cat/php">PHP</a></h4> <span
+                        <h4 class="title skill-heading"><a href="/php">PHP</a></h4> <span
                                 class="h-divider"></span>
                         <ul>
-                            <li><a href="/course-cat/php" class="button is-success is-small mb-1">
+                            <li><a href="/php" class="button is-success is-small mb-1">
                                     13 Эпизодов
                                 </a></li>
                             <li><strong class="color-primary">304</strong> <span
@@ -2071,13 +2071,13 @@
                     </div>
                     <div data-wow-delay=".5s" class="column is-2-tablet has-text-centered wow fadeInUp"
                          style="visibility: visible; animation-delay: 0.5s; animation-name: fadeInUp;"><a
-                                href="/course-cat/testing"><img src="wp-content/themes/wplms/images/icons/testing-icon.png"
+                                href="/testing"><img src="wp-content/themes/wplms/images/icons/testing-icon.png"
                                                             width="71" height="70" alt="Навык Тестирование" class="mb-1"
                                                             style="position: relative; left: 8px;"></a>
-                        <h4 class="title skill-heading in-caps"><a href="/course-cat/testing">Тестирование</a></h4> <span
+                        <h4 class="title skill-heading in-caps"><a href="/testing">Тестирование</a></h4> <span
                                 class="h-divider"></span>
                         <ul>
-                            <li><a href="/course-cat/testing" class="button is-success is-small mb-1">
+                            <li><a href="/testing" class="button is-success is-small mb-1">
                                     5 Эпизодов
                                 </a></li>
                             <li><strong class="color-primary">79</strong> <span class="color-text-lighter">Видео</span>
@@ -2086,13 +2086,13 @@
                     </div>
                     <div data-wow-delay=".5s" class="column is-2-tablet has-text-centered wow fadeInUp"
                          style="visibility: visible; animation-delay: 0.5s; animation-name: fadeInUp;"><a
-                                href="/course-cat/front-end"><img
+                                href="/front-end"><img
                                     src="wp-content/themes/wplms/images/icons/javascript-icon.png" width="50"
                                     height="70" alt="Навык Front-End" class="mb-1"></a>
-                        <h4 class="title skill-heading in-caps"><a href="/course-cat/front-end">JavaScript</a></h4> <span
+                        <h4 class="title skill-heading in-caps"><a href="/front-end">JavaScript</a></h4> <span
                                 class="h-divider"></span>
                         <ul>
-                            <li><a href="/course-cat/front-end" class="button is-success is-small mb-1">
+                            <li><a href="/front-end" class="button is-success is-small mb-1">
                                     6 Эпизодов
                                 </a></li>
                             <li><strong class="color-primary">238</strong> <span
@@ -2100,13 +2100,13 @@
                         </ul>
                     </div>
                     <div class="column is-2-tablet has-text-centered wow fadeInRightBig"
-                         style="visibility: visible; animation-name: fadeInRightBig;"><a href="/course-cat/tooling"><img
+                         style="visibility: visible; animation-name: fadeInRightBig;"><a href="/tooling"><img
                                     src="wp-content/themes/wplms/images/icons/tooling-icon.png" width="55" height="70"
                                     alt="Инструменты" class="mb-1"></a>
-                        <h4 class="title skill-heading in-caps"><a href="/course-cat/tooling">Инструменты</a></h4> <span
+                        <h4 class="title skill-heading in-caps"><a href="/tooling">Инструменты</a></h4> <span
                                 class="h-divider"></span>
                         <ul>
-                            <li><a href="/course-cat/tooling" class="button is-success is-small mb-1">
+                            <li><a href="/tooling" class="button is-success is-small mb-1">
                                     10 Эпизодов
                                 </a></li>
                             <li><strong class="color-primary">268</strong> <span
@@ -2433,11 +2433,11 @@
                         <h5 class="heading is-5 in-caps">Учиться</h5>
                         <ul class="footer-links-list">
                             <li><a href="/all-courses">Каталог</a></li>
-                            <li><a href="/course-cat/php">PHP</a></li>
-                            <li><a href="/course-cat/laravel">Laravel</a></li>
-                            <li><a href="/course-cat/testing">Тестирование</a></li>
-                            <li><a href="/course-cat/front-end">Front-End</a></li>
-                            <li><a href="/course-cat/tooling">Инструменты</a></li>
+                            <li><a href="/php">PHP</a></li>
+                            <li><a href="/laravel">Laravel</a></li>
+                            <li><a href="/testing">Тестирование</a></li>
+                            <li><a href="/front-end">Front-End</a></li>
+                            <li><a href="/tooling">Инструменты</a></li>
                             <!--<li><a href="/index">Lesson Index</a></li>
                             <li><a href="/shop">Shop</a></li>-->
                             <!--<li><a href="/recommended-reading">Books</a></li>-->

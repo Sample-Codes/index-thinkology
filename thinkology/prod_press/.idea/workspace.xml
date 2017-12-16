@@ -15,8 +15,8 @@
       <file leaf-file-name="style.min.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/wp-content/themes/wplms/assets/css/style.min.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="498855">
-              <caret line="33257" column="28" lean-forward="false" selection-start-line="33257" selection-start-column="28" selection-end-line="33257" selection-end-column="28" />
+            <state relative-caret-position="302">
+              <caret line="27024" column="17" lean-forward="false" selection-start-line="27024" selection-start-column="17" selection-end-line="27024" selection-end-column="17" />
               <folding />
             </state>
           </provider>
@@ -25,18 +25,66 @@
       <file leaf-file-name="min.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/wp-content/themes/wplms/css/min.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="235740">
-              <caret line="15716" column="48" lean-forward="false" selection-start-line="15716" selection-start-column="48" selection-end-line="15716" selection-end-column="48" />
+            <state relative-caret-position="281">
+              <caret line="1307" column="16" lean-forward="true" selection-start-line="1307" selection-start-column="16" selection-end-line="1307" selection-end-column="16" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="notitle.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/wp-content/themes/wplms/notitle.php">
+      <file leaf-file-name="taxonomy-course-cat.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/wp-content/themes/wplms/taxonomy-course-cat.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="378">
-              <caret line="2455" column="65" lean-forward="true" selection-start-line="2455" selection-start-column="65" selection-end-line="2455" selection-end-column="65" />
+            <state relative-caret-position="480">
+              <caret line="32" column="22" lean-forward="true" selection-start-line="32" selection-start-column="22" selection-end-line="32" selection-end-column="22" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="fullwidth.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wp-content/themes/wplms/fullwidth.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="169">
+              <caret line="14" column="50" lean-forward="true" selection-start-line="14" selection-start-column="50" selection-end-line="14" selection-end-column="50" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="func.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wp-content/themes/wplms/includes/func.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="296">
+              <caret line="530" column="53" lean-forward="true" selection-start-line="530" selection-start-column="53" selection-end-line="530" selection-end-column="53" />
+              <folding>
+                <marker date="1513451453985" expanded="true" signature="20845:20883" ph="..." />
+                <marker date="1513451453985" expanded="true" signature="21262:21307" ph="SELECT ID FR... $" />
+                <marker date="1513451453985" expanded="true" signature="42302:42308" ph=" " />
+                <marker date="1513451453985" expanded="true" signature="42308:42314" ph="→" />
+                <marker date="1513451453985" expanded="true" signature="42314:42320" ph=" " />
+                <marker date="1513451453985" expanded="true" signature="42320:42326" ph=" " />
+                <marker date="1513451453985" expanded="true" signature="50257:50368" ph="..." />
+                <marker date="1513451453985" expanded="true" signature="50274:50368" ph="..." />
+                <marker date="1513451453985" expanded="true" signature="51202:51374" ph="..." />
+                <marker date="1513451453985" expanded="true" signature="51502:51768" ph="..." />
+                <marker date="1513451453985" expanded="true" signature="51672:51713" ph="..." />
+                <marker date="1513451453985" expanded="true" signature="52214:52318" ph="..." />
+                <marker date="1513451453985" expanded="true" signature="59454:59463" ph="..." />
+                <marker date="1513451453985" expanded="true" signature="60321:60809" ph="..." />
+                <marker date="1513451453985" expanded="true" signature="67407:67634" ph="SELECT sum(m... $" />
+                <marker date="1513451453985" expanded="true" signature="67799:68027" ph="SELECT avg(m... $" />
+                <marker date="1513451453985" expanded="true" signature="68507:68603" ph="select post_... $" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="minimal.min.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wp-content/themes/wplms/assets/css/minimal.min.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="266">
+              <caret line="82" column="23" lean-forward="false" selection-start-line="82" selection-start-column="16" selection-end-line="82" selection-end-column="23" />
               <folding />
             </state>
           </provider>
@@ -46,26 +94,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>услови</find>
-      <find>перей</find>
-      <find>sin</find>
-      <find>foo</find>
-      <find>headerto</find>
-      <find>htt</find>
-      <find>wp-</find>
-      <find>block_me</find>
-      <find>/</find>
-      <find>footer</find>
-      <find>&lt;span&gt;</find>
-      <find>course_single_item</find>
-      <find>.block.simple .block_content .simple_category</find>
-      <find>#buddypress ul.item-list li .item-avatar</find>
-      <find>course_categories</find>
-      <find>bp-course-category-level</find>
-      <find>level</find>
-      <find>$extras</find>
-      <find>$course_levels</find>
-      <find>simple_category</find>
       <find>is-small</find>
       <find>a {</find>
       <find>/*41a3ff   qwe*/</find>
@@ -76,6 +104,26 @@
       <find>testimoni</find>
       <find>testimonials</find>
       <find>отзывы</find>
+      <find>page-template-full-width</find>
+      <find>content</find>
+      <find>kurskii</find>
+      <find>.block.simple .block_media:hover a:after</find>
+      <find>#title</find>
+      <find>#pad</find>
+      <find>.content a:not(.button):not(.ais-clear):visited</find>
+      <find>.sub-menu li a:hover</find>
+      <find>.sub-menu</find>
+      <find>#fff</find>
+      <find>h5</find>
+      <find>#fff !important</find>
+      <find>.sub-men</find>
+      <find>sub-men</find>
+      <find>post_type</find>
+      <find>a:hover</find>
+      <find>breadcrumbs</find>
+      <find>header</find>
+      <find>.single-course #buddypress #item-header ul.breadcrumbs</find>
+      <find>sub-menu</find>
     </findStrings>
     <replaceStrings>
       <replace>/course-cat/php</replace>
@@ -109,7 +157,6 @@
         <option value="$PROJECT_DIR$/wp-content/themes/wplms/templates/course/frontc2.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/wplms/templates/course/frontc3.php" />
         <option value="$PROJECT_DIR$/../../dev/dev_press/wp-config.php" />
-        <option value="$PROJECT_DIR$/wp-content/themes/wplms/templates/course/topc4.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/wplms/templates/course/frontc4.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/wplms/templates/course/bottomc4.php" />
         <option value="$PROJECT_DIR$/wp-content/plugins/vibe-course-module/includes/templates/course/single/home.php" />
@@ -120,10 +167,16 @@
         <option value="$PROJECT_DIR$/wp-content/themes/wplms/notitle_orig.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/wplms/footer-copyright.php" />
         <option value="$PROJECT_DIR$/wp-content/plugins/wplms-customizer/wplms-customizer.php" />
-        <option value="$PROJECT_DIR$/wp-content/themes/wplms/taxonomy-course-cat.php" />
-        <option value="$PROJECT_DIR$/wp-content/themes/wplms/assets/css/style.min.css" />
-        <option value="$PROJECT_DIR$/wp-content/themes/wplms/css/min.css" />
         <option value="$PROJECT_DIR$/wp-content/themes/wplms/notitle.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/twentyseventeen/rtl.css" />
+        <option value="$PROJECT_DIR$/wp-content/themes/wplms/templates/course/start/fullwidth.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/wplms/css/min.css" />
+        <option value="$PROJECT_DIR$/wp-content/themes/wplms/fullwidth.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/wplms/taxonomy-course-cat.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/wplms/includes/func.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/wplms/course/single/course-header4.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/wplms/templates/course/topc4.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/wplms/assets/css/style.min.css" />
       </list>
     </option>
   </component>
@@ -314,6 +367,96 @@
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="prod_press">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="wp-content">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="themes">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="wplms">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="templates">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="prod_press">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="wp-content">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="themes">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="wplms">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="templates">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="course">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="prod_press">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="wp-content">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="themes">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="wplms">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="templates">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="course">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="start">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
     </panes>
@@ -321,7 +464,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="SearchEverywhereHistoryKey" value="noti&#9;FILE&#9;file:///Users/pavelkurskiy/DocumentsMY/sites/prod/prod_press/wp-content/themes/wplms/notitle.php&#10;min&#9;FILE&#9;file:///Users/pavelkurskiy/DocumentsMY/sites/prod/prod_press/wp-content/themes/wplms/css/min.css&#10;sty&#9;FILE&#9;file:///Users/pavelkurskiy/DocumentsMY/sites/prod/prod_press/wp-content/themes/wplms/assets/css/style.min.css&#10;ca&#9;FILE&#9;file:///Users/pavelkurskiy/DocumentsMY/sites/prod/prod_press/wp-content/themes/wplms/taxonomy-course-cat.php&#10;wplms-customizer.php&#9;FILE&#9;file:///Users/pavelkurskiy/DocumentsMY/sites/prod/prod_press/wp-content/plugins/wplms-customizer/wplms-customizer.php&#10;course_categories&#9;null&#9;null&#10;course-te&#9;FILE&#9;file:///Users/pavelkurskiy/DocumentsMY/sites/prod/prod_press/wp-content/plugins/vibe-course-module/includes/bp-course-template.php&#10;course-l&#9;FILE&#9;file:///Users/pavelkurskiy/DocumentsMY/sites/prod/prod_press/wp-content/themes/wplms/course/course-loop.php&#10;inde&#9;FILE&#9;file:///Users/pavelkurskiy/DocumentsMY/sites/prod/prod_press/wp-content/themes/wplms/templates/directory/course/indexd2.php&#10;fron&#9;FILE&#9;file:///Users/pavelkurskiy/DocumentsMY/sites/prod/prod_press/wp-content/themes/wplms/templates/course/frontc4.php&#10;home&#9;FILE&#9;file:///Users/pavelkurskiy/DocumentsMY/sites/prod/prod_press/wp-content/themes/wplms/course/single/home.php&#10;indexd2.php&#9;FILE&#9;file:///Users/pavelkurskiy/DocumentsMY/sites/prod/prod_press/wp-content/themes/wplms/templates/directory/course/indexd2.php&#10;bread&#9;null&#9;null&#10;tax-course-cat&#9;FILE&#9;file:///Users/pavelkurskiy/DocumentsMY/sites/prod/prod_press/wp-content/themes/wplms/taxonomy-course-cat.php&#10;copyri&#9;FILE&#9;file:///Users/pavelkurskiy/DocumentsMY/sites/prod/prod_press/wp-content/themes/wplms/footer-copyright.php&#10;sing&#9;FILE&#9;file:///Users/pavelkurskiy/DocumentsMY/sites/prod/prod_press/wp-content/themes/wplms/single-course.php&#10;get_foote&#9;null&#9;null&#10;botto&#9;FILE&#9;file:///Users/pavelkurskiy/DocumentsMY/sites/prod/prod_press/wp-content/themes/wplms/templates/course/bottomc4.php&#10;ащще&#9;FILE&#9;file:///Users/pavelkurskiy/DocumentsMY/sites/prod/prod_press/wp-content/themes/wplms/options/img/footer-4.png&#10;notitl&#9;FILE&#9;file:///Users/pavelkurskiy/DocumentsMY/sites/prod/prod_press/wp-content/themes/wplms/notitle_orig.php&#10;no&#9;FILE&#9;file:///Users/pavelkurskiy/DocumentsMY/sites/prod/prod_press/wp-content/themes/wplms/notitle.php&#10;mini&#9;FILE&#9;file:///Users/pavelkurskiy/DocumentsMY/sites/prod/prod_press/wp-content/themes/wplms/assets/css/minimal.min.css&#10;minima&#9;FILE&#9;file:///Users/pavelkurskiy/DocumentsMY/sites/prod/prod_press/wp-content/themes/wplms/assets/css/minimal.min.css&#10;not&#9;FILE&#9;file:///Users/pavelkurskiy/DocumentsMY/sites/prod/prod_press/wp-content/themes/wplms/notitle.php&#10;tax&#9;FILE&#9;file:///Users/pavelkurskiy/DocumentsMY/sites/prod/prod_press/wp-content/themes/wplms/taxonomy-course-cat.php&#10;cat&#9;FILE&#9;file:///Users/pavelkurskiy/DocumentsMY/sites/prod/prod_press/wp-includes/category-template.php&#10;categ&#9;FILE&#9;file:///Users/pavelkurskiy/DocumentsMY/sites/prod/prod_press/wp-includes/category.php&#10;course_details&#9;null&#9;null&#10;cour&#9;FILE&#9;file:///Users/pavelkurskiy/DocumentsMY/sites/prod/prod_press/wp-content/themes/wplms/single-course.php&#10;home.&#9;FILE&#9;file:///Users/pavelkurskiy/DocumentsMY/sites/prod/prod_press/wp-content/themes/wplms/course/single/home.php&#10;course-review.php&#9;FILE&#9;file:///Users/pavelkurskiy/DocumentsMY/sites/prod/prod_press/wp-content/themes/wplms/course-review.php&#10;style&#9;FILE&#9;file:///Users/pavelkurskiy/DocumentsMY/sites/prod/prod_press/wp-content/themes/wplms/assets/css/style.min.css&#10;item-header-content&#9;null&#9;null&#10;course-header.php&#9;FILE&#9;file:///Users/pavelkurskiy/DocumentsMY/sites/prod/prod_press/wp-content/themes/wplms/course/single/course-header.php&#10;top&#9;FILE&#9;file:///Users/pavelkurskiy/DocumentsMY/sites/prod/prod_press/wp-content/themes/wplms/templates/course/top.php&#10;course&#9;FILE&#9;file:///Users/pavelkurskiy/DocumentsMY/sites/prod/prod_press/wp-content/plugins/vibe-course-module/includes/bp-course-template.php&#10;notit&#9;FILE&#9;file:///Users/pavelkurskiy/DocumentsMY/sites/prod/prod_press/wp-content/themes/wplms/notitle.php&#10;sta&#9;FILE&#9;file:///Users/pavelkurskiy/DocumentsMY/sites/prod/prod_press/wp-content/themes/wplms/header-standardcenter.php&#10;wplms-cu&#9;FILE&#9;file:///Users/pavelkurskiy/DocumentsMY/sites/prod/prod_press/wp-content/plugins/wplms-customizer/wplms-customizer.php&#10;foot&#9;FILE&#9;file:///Users/pavelkurskiy/DocumentsMY/sites/prod/prod_press/wp-content/themes/wplms/footer-copyright.php&#10;dir-search-form.php&#9;FILE&#9;file:///Users/pavelkurskiy/DocumentsMY/sites/prod/prod_press/wp-content/plugins/buddypress/bp-templates/bp-legacy/buddypress/common/search/dir-search-form.php&#10;heade&#9;FILE&#9;file:///Users/pavelkurskiy/DocumentsMY/sites/prod/prod_press/wp-content/themes/wplms/header-standardcenter.php&#10;type_filter&#9;null&#9;null&#10;radio&#9;null&#9;null&#10;free&#9;null&#9;null&#10;bp_course_d&#9;null&#9;null&#10;active_filters&#9;null&#9;null&#10;switch_view&#9;null&#9;null&#10;loo&#9;FILE&#9;file:///Users/pavelkurskiy/DocumentsMY/sites/prod/prod_press/wp-content/themes/wplms/course/course-loop.php&#10;course_&#9;FILE&#9;file:///Users/pavelkurskiy/DocumentsMY/sites/prod/prod_press/wp-content/plugins/vibe-course-module/includes/css/course_template.css" />
+    <property name="SearchEverywhereHistoryKey" value="sin&#9;FILE&#9;file:///Users/pavelkurskiy/DocumentsMY/sites/prod/prod_press/wp-content/themes/wplms/single-course.php&#10;ho&#9;FILE&#9;file:///Users/pavelkurskiy/DocumentsMY/sites/prod/prod_press/wp-content/themes/wplms/course/single/home.php&#10;top&#9;FILE&#9;file:///Users/pavelkurskiy/DocumentsMY/sites/prod/prod_press/wp-content/themes/wplms/templates/course/topc4.php&#10;course-header&#9;FILE&#9;file:///Users/pavelkurskiy/DocumentsMY/sites/prod/prod_press/wp-content/themes/wplms/course/single/course-header.php&#10;header&#9;FILE&#9;file:///Users/pavelkurskiy/DocumentsMY/sites/prod/prod_press/wp-content/themes/wplms/course/single/course-header4.php&#10;min&#9;FILE&#9;file:///Users/pavelkurskiy/DocumentsMY/sites/prod/prod_press/wp-content/themes/wplms/assets/css/minimal.min.css&#10;fontawesome&#9;FILE&#9;file:///Users/pavelkurskiy/DocumentsMY/sites/prod/prod_press/wp-content/plugins/vibe-customtypes/metaboxes/library/css/fontawesome-iconpicker.min.css&#10;minima&#9;FILE&#9;file:///Users/pavelkurskiy/DocumentsMY/sites/prod/prod_press/wp-content/themes/wplms/assets/css/minimal.min.css&#10;fullwidth&#9;FILE&#9;file:///Users/pavelkurskiy/DocumentsMY/sites/prod/prod_press/wp-content/themes/wplms/fullwidth.php&#10;page-template-fullwidth&#9;null&#9;null&#10;noti&#9;FILE&#9;file:///Users/pavelkurskiy/DocumentsMY/sites/prod/prod_press/wp-content/themes/wplms/notitle.php&#10;sty&#9;FILE&#9;file:///Users/pavelkurskiy/DocumentsMY/sites/prod/prod_press/wp-content/themes/wplms/assets/css/style.min.css&#10;ca&#9;FILE&#9;file:///Users/pavelkurskiy/DocumentsMY/sites/prod/prod_press/wp-content/themes/wplms/taxonomy-course-cat.php&#10;wplms-customizer.php&#9;FILE&#9;file:///Users/pavelkurskiy/DocumentsMY/sites/prod/prod_press/wp-content/plugins/wplms-customizer/wplms-customizer.php&#10;course_categories&#9;null&#9;null&#10;course-te&#9;FILE&#9;file:///Users/pavelkurskiy/DocumentsMY/sites/prod/prod_press/wp-content/plugins/vibe-course-module/includes/bp-course-template.php&#10;course-l&#9;FILE&#9;file:///Users/pavelkurskiy/DocumentsMY/sites/prod/prod_press/wp-content/themes/wplms/course/course-loop.php&#10;inde&#9;FILE&#9;file:///Users/pavelkurskiy/DocumentsMY/sites/prod/prod_press/wp-content/themes/wplms/templates/directory/course/indexd2.php&#10;fron&#9;FILE&#9;file:///Users/pavelkurskiy/DocumentsMY/sites/prod/prod_press/wp-content/themes/wplms/templates/course/frontc4.php&#10;home&#9;FILE&#9;file:///Users/pavelkurskiy/DocumentsMY/sites/prod/prod_press/wp-content/themes/wplms/course/single/home.php&#10;indexd2.php&#9;FILE&#9;file:///Users/pavelkurskiy/DocumentsMY/sites/prod/prod_press/wp-content/themes/wplms/templates/directory/course/indexd2.php&#10;bread&#9;null&#9;null&#10;tax-course-cat&#9;FILE&#9;file:///Users/pavelkurskiy/DocumentsMY/sites/prod/prod_press/wp-content/themes/wplms/taxonomy-course-cat.php&#10;copyri&#9;FILE&#9;file:///Users/pavelkurskiy/DocumentsMY/sites/prod/prod_press/wp-content/themes/wplms/footer-copyright.php&#10;sing&#9;FILE&#9;file:///Users/pavelkurskiy/DocumentsMY/sites/prod/prod_press/wp-content/themes/wplms/single-course.php&#10;get_foote&#9;null&#9;null&#10;botto&#9;FILE&#9;file:///Users/pavelkurskiy/DocumentsMY/sites/prod/prod_press/wp-content/themes/wplms/templates/course/bottomc4.php&#10;ащще&#9;FILE&#9;file:///Users/pavelkurskiy/DocumentsMY/sites/prod/prod_press/wp-content/themes/wplms/options/img/footer-4.png&#10;notitl&#9;FILE&#9;file:///Users/pavelkurskiy/DocumentsMY/sites/prod/prod_press/wp-content/themes/wplms/notitle_orig.php&#10;no&#9;FILE&#9;file:///Users/pavelkurskiy/DocumentsMY/sites/prod/prod_press/wp-content/themes/wplms/notitle.php&#10;mini&#9;FILE&#9;file:///Users/pavelkurskiy/DocumentsMY/sites/prod/prod_press/wp-content/themes/wplms/assets/css/minimal.min.css&#10;not&#9;FILE&#9;file:///Users/pavelkurskiy/DocumentsMY/sites/prod/prod_press/wp-content/themes/wplms/notitle.php&#10;tax&#9;FILE&#9;file:///Users/pavelkurskiy/DocumentsMY/sites/prod/prod_press/wp-content/themes/wplms/taxonomy-course-cat.php&#10;cat&#9;FILE&#9;file:///Users/pavelkurskiy/DocumentsMY/sites/prod/prod_press/wp-includes/category-template.php&#10;categ&#9;FILE&#9;file:///Users/pavelkurskiy/DocumentsMY/sites/prod/prod_press/wp-includes/category.php&#10;course_details&#9;null&#9;null&#10;cour&#9;FILE&#9;file:///Users/pavelkurskiy/DocumentsMY/sites/prod/prod_press/wp-content/themes/wplms/single-course.php&#10;home.&#9;FILE&#9;file:///Users/pavelkurskiy/DocumentsMY/sites/prod/prod_press/wp-content/themes/wplms/course/single/home.php&#10;course-review.php&#9;FILE&#9;file:///Users/pavelkurskiy/DocumentsMY/sites/prod/prod_press/wp-content/themes/wplms/course-review.php&#10;style&#9;FILE&#9;file:///Users/pavelkurskiy/DocumentsMY/sites/prod/prod_press/wp-content/themes/wplms/assets/css/style.min.css&#10;item-header-content&#9;null&#9;null&#10;course-header.php&#9;FILE&#9;file:///Users/pavelkurskiy/DocumentsMY/sites/prod/prod_press/wp-content/themes/wplms/course/single/course-header.php&#10;course&#9;FILE&#9;file:///Users/pavelkurskiy/DocumentsMY/sites/prod/prod_press/wp-content/plugins/vibe-course-module/includes/bp-course-template.php&#10;notit&#9;FILE&#9;file:///Users/pavelkurskiy/DocumentsMY/sites/prod/prod_press/wp-content/themes/wplms/notitle.php&#10;sta&#9;FILE&#9;file:///Users/pavelkurskiy/DocumentsMY/sites/prod/prod_press/wp-content/themes/wplms/header-standardcenter.php&#10;wplms-cu&#9;FILE&#9;file:///Users/pavelkurskiy/DocumentsMY/sites/prod/prod_press/wp-content/plugins/wplms-customizer/wplms-customizer.php&#10;foot&#9;FILE&#9;file:///Users/pavelkurskiy/DocumentsMY/sites/prod/prod_press/wp-content/themes/wplms/footer-copyright.php&#10;dir-search-form.php&#9;FILE&#9;file:///Users/pavelkurskiy/DocumentsMY/sites/prod/prod_press/wp-content/plugins/buddypress/bp-templates/bp-legacy/buddypress/common/search/dir-search-form.php&#10;heade&#9;FILE&#9;file:///Users/pavelkurskiy/DocumentsMY/sites/prod/prod_press/wp-content/themes/wplms/header-standardcenter.php&#10;type_filter&#9;null&#9;null" />
     <property name="settings.editor.selected.configurable" value="preferences.keymap" />
     <property name="FullScreen" value="true" />
     <property name="nodejs_interpreter_path" value="/usr/local/bin/node" />
@@ -448,19 +591,21 @@
       <workItem from="1513177592313" duration="1877000" />
       <workItem from="1513190891224" duration="44000" />
       <workItem from="1513210918008" duration="966000" />
+      <workItem from="1513440806079" duration="7680000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="85694000" />
+    <option name="totallyTimeSpent" value="93374000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32990867" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -471,7 +616,6 @@
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32990867" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
@@ -514,55 +658,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/wplms/templates/groups/bottomg4.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/wplms/templates/groups/topg4.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/wplms/templates/directory/course/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/wplms/templates/course/start/packaged.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-28">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/wplms/templates/course/start/fullwidth.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-28">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/wplms/templates/course/start/fullscreen.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-28">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/wplms/templates/course/start/default.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-28">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/wplms/templates/course/start/base.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
@@ -708,31 +803,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/wplms/templates/course/topc4.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-103">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/wplms/course/index.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/wplms/course/single/course-header4.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-13">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/wplms/single-course.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="709">
-          <caret line="119" column="22" lean-forward="true" selection-start-line="119" selection-start-column="22" selection-end-line="119" selection-end-column="22" />
         </state>
       </provider>
     </entry>
@@ -754,30 +828,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-197">
           <caret line="23" column="0" lean-forward="true" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/wplms/includes/init.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="283">
-          <caret line="937" column="9" lean-forward="false" selection-start-line="937" selection-start-column="9" selection-end-line="937" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/wplms/course/single/home.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1048">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/wplms/templates/course/frontc4.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="27" column="23" lean-forward="false" selection-start-line="27" selection-start-column="23" selection-end-line="27" selection-end-column="23" />
-          <folding>
-            <element signature="e#1054#1292#0#PHP" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -837,40 +887,176 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/wplms/assets/css/minimal.min.css">
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/wplms/templates/course/start/fullwidth.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="69" column="9" lean-forward="false" selection-start-line="69" selection-start-column="2" selection-end-line="69" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/wplms/taxonomy-course-cat.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="35" lean-forward="true" selection-start-line="17" selection-start-column="35" selection-end-line="17" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/wplms/assets/css/style.min.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="498855">
-          <caret line="33257" column="28" lean-forward="false" selection-start-line="33257" selection-start-column="28" selection-end-line="33257" selection-end-column="28" />
+        <state relative-caret-position="285">
+          <caret line="23" column="39" lean-forward="true" selection-start-line="23" selection-start-column="39" selection-end-line="23" selection-end-column="39" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/wplms/css/min.css">
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/twentyseventeen/rtl.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="235740">
-          <caret line="15716" column="48" lean-forward="false" selection-start-line="15716" selection-start-column="48" selection-end-line="15716" selection-end-column="48" />
+        <state relative-caret-position="101">
+          <caret line="278" column="19" lean-forward="true" selection-start-line="278" selection-start-column="19" selection-end-line="278" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/plugins/vibe-customtypes/metaboxes/library/css/fontawesome-iconpicker.min.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="39" lean-forward="false" selection-start-line="2" selection-start-column="28" selection-end-line="2" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/wplms/templates/course/start/default.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-79">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/wplms/notitle.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="2455" column="65" lean-forward="true" selection-start-line="2455" selection-start-column="65" selection-end-line="2455" selection-end-column="65" />
+        <state relative-caret-position="423">
+          <caret line="2458" column="26" lean-forward="true" selection-start-line="2458" selection-start-column="26" selection-end-line="2458" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/wplms/includes/func.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="296">
+          <caret line="530" column="53" lean-forward="true" selection-start-line="530" selection-start-column="53" selection-end-line="530" selection-end-column="53" />
+          <folding>
+            <marker date="1513451453985" expanded="true" signature="20845:20883" ph="..." />
+            <marker date="1513451453985" expanded="true" signature="21262:21307" ph="SELECT ID FR... $" />
+            <marker date="1513451453985" expanded="true" signature="42302:42308" ph=" " />
+            <marker date="1513451453985" expanded="true" signature="42308:42314" ph="→" />
+            <marker date="1513451453985" expanded="true" signature="42314:42320" ph=" " />
+            <marker date="1513451453985" expanded="true" signature="42320:42326" ph=" " />
+            <marker date="1513451453985" expanded="true" signature="50257:50368" ph="..." />
+            <marker date="1513451453985" expanded="true" signature="50274:50368" ph="..." />
+            <marker date="1513451453985" expanded="true" signature="51202:51374" ph="..." />
+            <marker date="1513451453985" expanded="true" signature="51502:51768" ph="..." />
+            <marker date="1513451453985" expanded="true" signature="51672:51713" ph="..." />
+            <marker date="1513451453985" expanded="true" signature="52214:52318" ph="..." />
+            <marker date="1513451453985" expanded="true" signature="59454:59463" ph="..." />
+            <marker date="1513451453985" expanded="true" signature="60321:60809" ph="..." />
+            <marker date="1513451453985" expanded="true" signature="67407:67634" ph="SELECT sum(m... $" />
+            <marker date="1513451453985" expanded="true" signature="67799:68027" ph="SELECT avg(m... $" />
+            <marker date="1513451453985" expanded="true" signature="68507:68603" ph="select post_... $" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/wplms/assets/css/minimal.min.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="82" column="23" lean-forward="false" selection-start-line="82" selection-start-column="16" selection-end-line="82" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/wplms/fullwidth.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="169">
+          <caret line="14" column="50" lean-forward="true" selection-start-line="14" selection-start-column="50" selection-end-line="14" selection-end-column="50" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/wplms/templates/course/frontc4.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#1054#1292#0#PHP" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/wplms/course/single/course-header4.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="17" column="40" lean-forward="true" selection-start-line="17" selection-start-column="40" selection-end-line="17" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/wplms/course/single/course-header.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/wplms/course/single/home.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-28">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/wplms/templates/course/topc4.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="40" lean-forward="true" selection-start-line="7" selection-start-column="12" selection-end-line="7" selection-end-column="40" />
+          <folding>
+            <marker date="1513455772396" expanded="true" signature="173:225" ph="..." />
+            <marker date="1513455772396" expanded="true" signature="196:225" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/wplms/includes/init.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="256">
+          <caret line="228" column="13" lean-forward="false" selection-start-line="228" selection-start-column="13" selection-end-line="228" selection-end-column="13" />
+          <folding>
+            <marker date="1512687362324" expanded="true" signature="10946:11432" ph="..." />
+            <marker date="1512687362324" expanded="true" signature="11224:11409" ph="..." />
+            <marker date="1512687362324" expanded="true" signature="30720:30756" ph="SELECT COUNT... $" />
+            <marker date="1512687362324" expanded="true" signature="35103:35152" ph="..." />
+            <marker date="1512687362324" expanded="true" signature="36751:36816" ph="..." />
+            <marker date="1512687362324" expanded="true" signature="36852:36961" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/wplms/single-course.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="14" column="18" lean-forward="false" selection-start-line="14" selection-start-column="18" selection-end-line="14" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/wplms/assets/css/style.min.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="302">
+          <caret line="27024" column="17" lean-forward="false" selection-start-line="27024" selection-start-column="17" selection-end-line="27024" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/wplms/css/min.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="281">
+          <caret line="1307" column="16" lean-forward="true" selection-start-line="1307" selection-start-column="16" selection-end-line="1307" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/wplms/taxonomy-course-cat.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="32" column="22" lean-forward="true" selection-start-line="32" selection-start-column="22" selection-end-line="32" selection-end-column="22" />
           <folding />
         </state>
       </provider>

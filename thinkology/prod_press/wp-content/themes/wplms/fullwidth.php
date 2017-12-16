@@ -13,8 +13,12 @@ if(vibe_validate($title) || empty($title)){
 ?> 
 <section id="title">
     <div class="<?php echo vibe_get_container(); ?>">
-        <div class="row">
-            <div class="col-md-12">
+        <!--kurskiy-->
+        <!--<div class="row">-->
+        <div class="row" id="pad">
+            <!--kurskii-->
+            <!--<div class="col-md-12">-->
+            <div class="col-md-9">
                 <div class="pagetitle">
                     <?php
                         $breadcrumbs=get_post_meta(get_the_ID(),'vibe_breadcrumbs',true);
@@ -40,7 +44,10 @@ if(vibe_validate($title) || empty($title)){
                 comments_template();
          ?>
     </div>
-           
+
+
+
+
 </section>
 <?php
 endwhile;

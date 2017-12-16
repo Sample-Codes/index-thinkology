@@ -20567,6 +20567,7 @@ nav .menu li:hover > .sub-menu > li {
     font-size: 12px
 }
 
+
 nav .menu li:hover > .sub-menu > li i {
     display: block;
     font-size: 48px
@@ -20668,7 +20669,9 @@ nav .sub-menu li {
 }
 
 nav .sub-menu li a {
-    color: #FFF;
+    /*kurskii*/
+    /*color: #FFF;*/
+    color: #049eeb;
     opacity: .8;
     display: block;
     font-size: 12px;
@@ -20793,7 +20796,7 @@ nav .sub-menu li:last-child a {
     padding: 15px 0 15px 30px;
     display: block;
     text-align: left;
-    color: #FFF;
+    color: #049eeb;
     opacity: .8;
     background: rgba(255, 255, 255, .1)
 }
@@ -27017,7 +27020,9 @@ label.strong span {
 }
 
 .single-course #buddypress #item-header ul.breadcrumbs {
-    margin-bottom: 0
+    margin-bottom: 0;
+    /*kurskii*/
+    display: none;
 }
 
 .single-course #buddypress #item-header h1 {
@@ -29549,7 +29554,7 @@ section.stripe .v_column {
 .block.simple .block_content .block_title {
     font-size: 1.5rem;
     line-height: 1.8rem;
-    font-weight: 500
+    font-weight: 500;
 
 }
 
@@ -29564,6 +29569,7 @@ section.stripe .v_column {
     /*kurskii*/
     display: none;
 }
+
 
 .block.simple .block_content .simple_category a {
     display: inline-block;
@@ -29584,7 +29590,8 @@ section.stripe .v_column {
 }
 
 .block.simple .block_media:hover a:after {
-    content: "\f0c1";
+    /*kurskii*/
+    content: "\f120";
     font-family: fontawesome;
     font-size: 36px;
     color: #fff;
@@ -29592,7 +29599,8 @@ section.stripe .v_column {
     position: absolute;
     left: 50%;
     top: 50%;
-    display: block
+    display: block;
+
 }
 
 .testimonial-content .author img {

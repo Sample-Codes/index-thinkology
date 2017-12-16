@@ -1,0 +1,16 @@
+2017-12-16T16:25:05+00:00 CRITICAL Uncaught Error: Class 'evo_sinevent' not found in /Users/pavelkurskiy/DocumentsMY/sites/prod/prod_press/wp-content/themes/wplms/single-ajde_events-template.php:17
+Stack trace:
+#0 /Users/pavelkurskiy/DocumentsMY/sites/prod/prod_press/wp-includes/template-loader.php(74): include()
+#1 /Users/pavelkurskiy/DocumentsMY/sites/prod/prod_press/wp-blog-header.php(19): require_once('/Users/pavelkur...')
+#2 /Users/pavelkurskiy/DocumentsMY/sites/prod/prod_press/index.php(17): require('/Users/pavelkur...')
+#3 {main}
+  thrown
+
+2017-12-16T16:25:11+00:00 CRITICAL Uncaught Error: Class 'evo_sinevent' not found in /Users/pavelkurskiy/DocumentsMY/sites/prod/prod_press/wp-content/themes/wplms/single-ajde_events-template.php:17
+Stack trace:
+#0 /Users/pavelkurskiy/DocumentsMY/sites/prod/prod_press/wp-includes/template-loader.php(74): include()
+#1 /Users/pavelkurskiy/DocumentsMY/sites/prod/prod_press/wp-blog-header.php(19): require_once('/Users/pavelkur...')
+#2 /Users/pavelkurskiy/DocumentsMY/sites/prod/prod_press/index.php(17): require('/Users/pavelkur...')
+#3 {main}
+  thrown
+

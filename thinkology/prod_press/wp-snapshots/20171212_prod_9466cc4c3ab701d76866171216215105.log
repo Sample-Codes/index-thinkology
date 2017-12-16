@@ -1,0 +1,79 @@
+********************************************************************************
+DUPLICATOR-LITE PACKAGE-LOG: December 16, 2017 9:51 pm
+NOTICE: Do NOT post to public sites or forums 
+********************************************************************************
+VERSION:	1.2.30
+WORDPRESS:	4.9.1
+PHP INFO:	7.0.20 | SAPI: apache2handler
+SERVER:		Apache 
+PHP TIME LIMIT: (0) no time limit imposed 
+PHP MAX MEMORY: 2048M (128M default) 
+MEMORY STACK: 30MB 
+
+********************************************************************************
+DATABASE:
+********************************************************************************
+BUILD MODE:   PHP(query limit - 100)
+MYSQLTIMEOUT: 5000
+MYSQLDUMP:    Not Supported 
+TABLES: total:38 | filtered:0 | create:38 
+FILTERED: [] 
+SQL CREATED: 20171212_prod_9466cc4c3ab701d76866171216215105_database.sql 
+SQL FILE SIZE: 3.47MB (3636309) 
+SQL FILE TIME: 2017-12-16 21:51:50 
+SQL RUNTIME: 2.13 sec. 
+
+******************************************************************************** 
+ARCHIVE (ZIP): 
+******************************************************************************** 
+ARCHIVE DIR:  /Users/pavelkurskiy/DocumentsMY/sites/prod/prod_press 
+ARCHIVE FILE: 20171212_prod_9466cc4c3ab701d76866171216215105_archive.zip 
+FILTERS: *OFF* 
+DIRS:
+	not set 
+FILES:
+	not set 
+EXTS:  not set 
+---------------------------------------- 
+COMPRESSING 
+SIZE:	155.78MB 
+STATS:	Dirs 880 | Files 8,296 
+SQL ADDED: 20171212_prod_9466cc4c3ab701d76866171216215105_database.sql 
+ZipArchive Object
+(
+    [status] => 0
+    [statusSys] => 0
+    [numFiles] => 9176
+    [filename] => /Users/pavelkurskiy/DocumentsMY/sites/prod/prod_press/wp-snapshots/tmp/20171212_prod_9466cc4c3ab701d76866171216215105_archive.zip
+    [comment] => 
+)
+ 
+COMPRESSION RESULT: '1' 
+COMPRESSED SIZE: 70.15MB 
+ARCHIVE RUNTIME: 29.77 sec. 
+MEMORY STACK: 34MB 
+
+******************************************************************************** 
+MAKE INSTALLER: 
+******************************************************************************** 
+Build Start 
+Build Finished 
+Preping for use 
+PACK SIZE:  
+Template parsed with new data 
+Complete [/Users/pavelkurskiy/DocumentsMY/sites/prod/prod_press/wp-snapshots/tmp/20171212_prod_9466cc4c3ab701d76866171216215105_installer.php] 
+Added to archive 
+
+******************************************************************************** 
+INTEGRITY CHECKS: 
+******************************************************************************** 
+SQL File: 3.47MB 
+Installer File: 443.31KB 
+Archive File: 70.15MB  
+
+********************************************************************************
+RECORD ID:[3]
+TOTAL PROCESS RUNTIME: 36.56 sec.
+PEAK PHP MEMORY USED: 34MB
+DONE PROCESSING => 20171212_prod December 16, 2017 9:52 pm
+ 

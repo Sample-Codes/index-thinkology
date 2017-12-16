@@ -279,7 +279,7 @@ a {
 }
 
 a:hover {
-  color: #4d545d
+  color: #049eeb;
 }
 
 code {
@@ -1303,10 +1303,10 @@ a.box:active {
 /*.content a:not(.button):not(.ais-clear) {
   border-bottom: 1px solid #d7d7d7
 }*/
-
-.content a:not(.button):not(.ais-clear):visited {
+/*kurskii*/
+/*.content a:not(.button):not(.ais-clear):visited {
   color: #847bb9
-}
+}*/
 
 .content a:not(.button):not(.ais-clear):hover {
   border-bottom-color: #049eeb

@@ -33215,6 +33215,11 @@ div.mce-panel {
     color:#919499;
 }
 
+/*hide high level category (ex. PHP)*/
+.course_categories span:first-child {
+    display: none;
+}
+
 /*Course page*/
 /*title*/
 

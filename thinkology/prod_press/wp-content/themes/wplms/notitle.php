@@ -969,46 +969,18 @@
                                     class="nav-bottom-title">Войти</span></a></li>
                     <li class="is-hidden-tablet"><a href="/join" class="nav-bottom-link"><span class="nav-bottom-title">Новый</span></a>
                     </li>-->
-                    <li><a href="/all-courses" class="nav-bottom-link "><span class="icon icon-catalog"></span> <span
-                                    class="nav-bottom-title">Каталог</span></a></li>
-                    <li><a href="/all-courses" class="nav-bottom-link "><span class="icon icon-series"></span> <span
-                                    class="nav-bottom-title">Эпизоды</span></a></li>
-                    <li>
-                        <div class="dropdown w-100">
-                            <div class="is-vertically-centered">
-                                <button class="button has-dropdown w-100"><a href="#" class="nav-bottom-link "><span
-                                                class="icon icon-skills"></span> <span
-                                                class="nav-bottom-title">Навыки</span></a></button>
-                            </div>
-                            <div class="dropdown-menu" style="min-width: 250px;">
-                                <ul>
-                                    <li class="dropdown-item"><a href="/php" class=" is-flex"><span class="flex">PHP</span>
-                                            <span class="is-circle icon" style="color: rgb(136, 147, 189);"></span></a>
-                                    </li>
-                                    <li class="dropdown-item"><a href="/laravel" class=" is-flex"><span
-                                                    class="flex">Laravel</span> <span class="is-circle icon"
-                                                                                      style="color: rgb(237, 108, 99);"></span></a>
-                                    </li>
-                                    <li class="dropdown-item"><a href="/testing" class=" is-flex"><span
-                                                    class="flex">Тестирование</span> <span class="is-circle icon"
-                                                                                           style="color: rgb(144, 206, 148);"></span></a>
-                                    </li>
-                                    <li class="dropdown-item"><a href="/front-end" class=" is-flex"><span
-                                                    class="flex">Front-End</span> <span class="is-circle icon"
-                                                                                        style="color: rgb(171, 170, 67);"></span></a>
-                                    </li>
-                                    <li class="dropdown-item"><a href="/tooling" class=" is-flex"><span
-                                                    class="flex">Инструменты</span> <span class="is-circle icon"
-                                                                                          style="color: rgb(239, 103, 51);"></span></a>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                    </li>
-                    <li><a href="/shop" class="nav-bottom-link "><span class="icon icon-apparel"></span> <span
-                                    class="nav-bottom-title">Apparel</span></a></li>
-                    <li><a href="/discuss" class="nav-bottom-link "><span class="icon icon-discuss"></span> <span
-                                    class="nav-bottom-title">Discussions</span></a></li>
+                    <li><a href="/all-courses" class="nav-bottom-link "><!--<span class="icon icon-catalog"></span>--> <span
+                                    class="nav-bottom-title">КАТАЛОГ</span></a></li>
+                    <li><a href="/php" class="nav-bottom-link "><!--<span class="icon icon-series"></span>--> <span
+                                                    class="nav-bottom-title">PHP</span></a></li>
+                    <li><a href="/laravel" class="nav-bottom-link "><!--<span class="icon icon-series"></span>--> <span
+                                                    class="nav-bottom-title">LARAVEL</span></a></li>
+                    <li><a href="/testing" class="nav-bottom-link "><!--<span class="icon icon-apparel"></span>--> <span
+                                              class="nav-bottom-title">ТЕСТИРОВАНИЕ</span></a></li>
+                    <li><a href="/front-end" class="nav-bottom-link "><!--<span class="icon icon-discuss"></span>--> <span
+                                                    class="nav-bottom-title">FRONT-END</span></a></li>
+                    <li><a href="/tooling" class="nav-bottom-link "><!--<span class="icon icon-discuss"></span>--> <span
+                                                    class="nav-bottom-title">ИНСТРУМЕНТЫ</span></a></li>
                 </ul>
             </div>
         </nav>

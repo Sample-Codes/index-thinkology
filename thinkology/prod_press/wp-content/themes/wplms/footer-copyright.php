@@ -1,19 +1,7 @@
 <?php 
 if ( ! defined( 'ABSPATH' ) ) exit;
 ?>
-<!--<div id="footerbottom">
-	<div id="scrolltop">
-        <a><i class="icon-arrow-1-up"></i><span><?php /*_e('top','vibe'); */?></span></a>
-    </div>
-    <div class="<?php /*echo vibe_get_container(); */?>">
-        <div class="row">
-            <div class="col-md-12">
-                <?php /*$copyright=vibe_get_option('copyright'); echo (isset($copyright)?do_shortcode($copyright):'&copy; 2013, All rights reserved.'); */?>
-            </div>
-        </div>
-    </div>
-</div>
-</div><!-- END PUSHER -->
+<!-- END PUSHER -->
 </div><!-- END MAIN -->
 	<!-- SCRIPTS -->
 <?php
@@ -51,37 +39,32 @@ wp_footer();
                 <h5 class="heading is-5 in-caps">Учиться</h5>
                 <ul class="footer-links-list">
                     <li><a href="/all-courses">Каталог</a></li>
-                    <!--<li><a href="/index">Lesson Index</a></li>
-                    <li><a href="/shop">Shop</a></li>-->
-                    <!--<li><a href="/recommended-reading">Books</a></li>-->
-                    <!--<li><a href="/join">Новый</a></li>
-                    <li><a href="/login">
-                            Войти
-                        </a></li>-->
+                    <li><a href="/php">PHP</a></li>
+                    <li><a href="/laravel">Laravel</a></li>
+                    <li><a href="/testing">Тестирование</a></li>
+                    <li><a href="/front-end">Front-End</a></li>
+                    <li><a href="/tooling">Инструменты</a></li>
                 </ul>
             </div>
             <div class="column is-2 is-hidden-mobile">
                 <h5 class="heading is-5 in-caps">Общение</h5>
                 <ul class="footer-links-list">
-                    <!--<li><a href="/discuss">Forum</a></li>
-                    <li><a href="/podcast">Laracasts Snippet</a></li>
-                    <li><a href="http://laravelpodcast.com">Laravel Podcast</a></li>-->
-                    <li><a href="/testimonials">Отзывы</a></li>
-                    <!--<li><a href="/contact">Поддержка</a></li>-->
+
+                    <li><a href="/отзывы">Отзывы</a></li>
+
                 </ul>
             </div>
             <div class="column is-2 is-hidden-mobile">
                 <h5 class="heading is-5 in-caps">Экстра</h5>
                 <ul class="footer-links-list">
-                    <!--<li><a href="https://laracasts.com/stats">Статистика</a></li>-->
-                    <!--<li><a href="/faq">FAQ</a></li>-->
-                    <!--<li><a href="/community?orderBy=updated_at">Community Tutorials</a></li>
-                    <li><a href="/feed">RSS</a></li>-->
+
+
+
                     <li><a href="https://hh.ru/search/vacancy?text=laravel&area=1">Получить работу</a></li>
                 </ul>
                 <ul class="zeroed footer-links-list">
-                    <!--<li><a href="/privacy">Личные данные</a></li>-->
-                    <li><a href="/условия">Условия</a></li>
+
+
                 </ul>
             </div>
         </div>
@@ -89,10 +72,7 @@ wp_footer();
             <div class="column is-5 is-bold has-text-centered-mobile">
                 © Thinkology 2018. Все права защищены.
             </div>
-            <!--<div class="column is-5 is-offset-2 has-text-right is-bold is-hidden-mobile">
-                С гордостью размещены на <a href="https://forge.laravel.com">Laravel Forge</a> и <a
-                        href="https://www.digitalocean.com/?refcode=d2070a2d5f35">DigitalOcean</a>.
-            </div>-->
+
         </div>
     </footer>
 </section>

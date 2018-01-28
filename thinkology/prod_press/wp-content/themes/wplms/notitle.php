@@ -877,6 +877,18 @@
             margin-left: 0px !important;
         }
     </style>
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-111463918-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-111463918-1');
+</script>
+
+
 </head>
 
 <body class=" guest home">
